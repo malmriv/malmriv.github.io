@@ -83,7 +83,7 @@ author:
   name             : "Manuel Almagro Rivas."
   avatar           : "https://malmriv.github.io/files/liverpool2.jpg"
   bio              : "Physics student @ University of Granada (Spain). Interested in data science."
-  location         : "Granada (Spain)"
+  location         : "Andalucía (Spain)"
   employer         :
   pubmed           : 
   googlescholar    : 
@@ -255,7 +255,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Madrid # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
