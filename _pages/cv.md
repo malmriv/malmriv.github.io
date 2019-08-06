@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Degree in Chemistry (2013 - 2016). University of Jaén.
+* Degree in Chemistry (2013 - 2016). University of Jaén. (Unfinished).
   * Award for Best Entrance Grades (2013, Jaén).
   * Association of Chemists of Andalusia (2013 - 2016).
 * Degree in Physics (2016 - currently). University of Granada.
