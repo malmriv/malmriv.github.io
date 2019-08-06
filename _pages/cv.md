@@ -11,8 +11,10 @@ redirect_from:
 
 Education
 ======
-* Degree in Chemistry (2013-2016). University of Jaén.
-* Degree in Physics (2016-currently). University of Granada.
+* Degree in Chemistry (2013 - 2016). University of Jaén.
+  * Award for Best Entrance Grades (2013, Jaén).
+  * Association of Chemists of Andalusia (2013 - 2016).
+* Degree in Physics (2016 - currently). University of Granada.
   
 Skills
 ======
@@ -23,8 +25,8 @@ Skills
 Languages
 ======
 * Spanish. Native.
-* English. C2 Proficiency (CPE). December 2018. University of Cambridge.
-* Russian. Currently studying for First Certification Level (TORFL-I/B1, St. Petersburg University).
+* English. Certificate of Proficiency in English (CPE/C2, University of Cambridge). November 2018.
+* Russian. Currently studying for the First Certification Level (TORFL-I/B1, St. Petersburg University).
 
 Publications
 ======
