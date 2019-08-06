@@ -3,7 +3,7 @@ title: "Los hechos desnudos (<i>The naked facts.</i>)"
 collection: publications
 permalink: /publication/sep2018-philosophy
 excerpt: 'Science, a more uncertain undertaking than most people realise, is being pinned as a shortcut to absolute truth. Are we on the right path?'
-date: 2017-09-12
+date: 2018-09-12
 venue: 'Contexto'
 paperurl: 'https://ctxt.es/es/20180912/Firmas/21653/manuel-almagro-practica-cientifica-planetas-filosofos-de-la-naturaleza.htm'
 citation: 'M. Almagro (2018). "Los hechos desnudos." <i>Contexto</i>.'
