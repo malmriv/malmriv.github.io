@@ -21,6 +21,8 @@ Skills
 * Data analysis and data visualization with R.
 * High-volume processing and numerical applications with Fortran.
 * Technical translation (English into Spanish).
+* Document formatting with LaTeX.
+* Currently starting to learn Python.
 
 Languages
 ======
