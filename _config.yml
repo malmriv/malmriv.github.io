@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-GB"
-title                    : "Manuel Almagro"
+title                    : "Manuel"
 title_separator          : "-"
 name                     : &name "Manuel Almagro"
 description              : &description "My personal page."
