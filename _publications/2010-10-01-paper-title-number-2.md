@@ -1,15 +1,13 @@
 ---
-title: "Paper Title Number 2"
+title: "Los hechos desnudos (<i>The naked facts.</i>)"
 collection: publications
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+permalink: /publication/sep2018-philosophy
+excerpt: 'Science, a more uncertain undertaking than most people realise, is being pinned as a shortcut to absolute truth. Are we on the right path?'
+date: 2017-09-12
+venue: 'Contexto'
+paperurl: 'https://ctxt.es/es/20180912/Firmas/21653/manuel-almagro-practica-cientifica-planetas-filosofos-de-la-naturaleza.htm'
+citation: 'M. Almagro (2018). "Los hechos desnudos." <i>Contexto</i>.'
 ---
-This paper is about the number 2. The number 3 is left for future work.
+Science, a more uncertain undertaking than most people realise, is being pinned as a shortcut to absolute truth. Are we on the right path? I use this article to point at some paradigmatic cases where renowned scientists have shown to lack a basic understanding of how science works. I try to make the case that our future scientists need to understand that science is not immune to misconceptions, that disagreeing is fundamental (even if unpleasant) and that one needs to leave the orthodoxy apart sometimes. (In Spanish).
 
-[Download paper here](http://academicpages.github.io/files/paper2.pdf)
-
-Recommended citation: Your Name, You. (2010). "Paper Title Number 2." <i>Journal 1</i>. 1(2).
+Recommended citation: M. Almagro (2018). "Los hechos desnudos." <i>Contexto</i>.
