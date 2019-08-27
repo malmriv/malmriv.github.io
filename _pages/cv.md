@@ -14,6 +14,7 @@ Education
 * Degree in Chemistry (2013 - 2016). University of Jaén.
   * Award for Best Entrance Grades (2013, Jaén).
   * Association of Chemists of Andalusia (2013 - 2016).
+  * Unfinished. (Switched to Physics).
 * Degree in Physics (2016 - currently). University of Granada.
   
 Skills
