@@ -70,7 +70,7 @@ Our result:
 histogram(decomp)
 ```
 
-![](histogram_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+![](https://github.com/malmriv/malmriv.github.io/blob/master/_posts/histogram_files/figure-gfm/unnamed-chunk-4-1.png?raw=true)<!-- -->
 
 As expected, the histogram resembles a Poisson distribution, which is
 also close to the corresponding Gaussian distribution.
