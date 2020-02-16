@@ -8,12 +8,14 @@ tags:
   - physics
 ---
 
-We need some data corresponding to nuclear decay. Since the raw data I
+Rudimentary measurements of nuclear decay are common within the first years of one's education as a physicist. I wrote this code when I first needed to check whether what I got in the lab was right or not, and I think it could be useful to more people. 
+
+First, we need some data corresponding to nuclear decay. Since the raw data I
 could gather in the laboratory is not enough to get a nice-looking
 Gaussian distribution (and I want this to be somewhat easy to understand
 for most people), I generated a .CSV file with data corresponding to a
 normal distribution, with N=1400, mean=16 and standard deviation=4. For
-large N values, a Poisson distribution tends towards a Gaussian
+large N values a Poisson distribution (which best describes nuclear decay) tends towards a Gaussian
 distribution, so this will be fine. We import the
 file:
 
