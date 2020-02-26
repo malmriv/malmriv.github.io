@@ -34,8 +34,8 @@ decomp = data$decompositions
 
 Then, we define a function to plot the data. Note that my intention is
 not to perform a proper analysis. I just want to graph the data in
-histogram form, and check how well it fits a normal and a Poisson
-distribution. The function, which I think is self explanatory, looks
+histogram form, and visually check how well it fits a normal and a Poisson
+distribution. There are better suited methods if one intends to perform a statistical analysis for the data, but we're only trying to check if the data fits reasonably within a Poisson distribution. The function, which I think is self explanatory, looks
 like this:
 
 ``` r
