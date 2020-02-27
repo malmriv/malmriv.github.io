@@ -1,7 +1,7 @@
 ---
 title: 'Histogram for nuclear decay.'
 date: 2020-02-16
-permalink: /posts/2012/08/histogram-nuclear-decay/
+permalink: /posts/2020/02/histogram-nuclear-decay/
 tags:
   - R
   - data visualization
