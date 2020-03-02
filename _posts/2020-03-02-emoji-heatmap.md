@@ -1,5 +1,5 @@
 ---
-title: ’Studying emoji usage through geolocation.’
+title: Studying emoji usage through geolocation.
 date: 2020-03-02
 permalink: /posts/2020/02/emoji-heatmap/
 tags:
