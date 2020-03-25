@@ -20,8 +20,8 @@ Education
   
 Skills
 ======
-* Data analysis and data visualization with R.
-* High-volume processing and numerical applications with Fortran.
+* Data manipulation, analysis and visualization with R.
+* High-volume data manipulation and simulations with Fortran.
 * Technical translation (English into Spanish).
 * Document formatting with LaTeX.
 * Currently starting to learn Python.
