@@ -9,7 +9,7 @@ tags:
   - for fun
 ---
 
-John Conway's famous [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) is a "zero player game", as he calls it. Lots of literature exist explaining the intricacies that can emerge from its very simple rules. Citing Wikipedia:
+John Conway's famous [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) is a "zero player game", as he calls it. There exists a great deal of literature exploring the intricacies that can emerge from its very simple rules. Citing Wikipedia:
 
  > 1. Any live cell with fewer than two live neighbours dies, as if by underpopulation.
  > 2. Any live cell with two or three live neighbours lives on to the next generation.
