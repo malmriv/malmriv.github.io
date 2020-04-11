@@ -96,6 +96,8 @@ for(i in 1:700) {
 
 After executing it, a folder will appear and the desired number of frames will start popping up:
 
+![](https://github.com/malmriv/malmriv.github.io/blob/master/_posts/images/create-folder.png?raw=true)
+
 
 
 This is often sufficient to check the evolution of the system, but if we wish to actually have a finished .gif image we can merge them all together. It's easy enough to do with free software like Gimp, but the whole process can be condensed in a single line with programs like [ImageMagick](https://imagemagick.org/index.php). One can just open a terminal, navigate to the folder where the frames are stored and type something like:
