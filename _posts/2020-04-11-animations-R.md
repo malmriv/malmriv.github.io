@@ -1,5 +1,5 @@
 ---
-title: ‘Animating scientific data with R.’
+title: Making animations in R.
 date: 2020-04-11
 permalink: /posts/2020/04/make-animations-with-R/
 tags:
