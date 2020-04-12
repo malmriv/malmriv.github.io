@@ -16,6 +16,7 @@ This isn't usually a problem, but starting from an overly complicated idea of wh
    - Following a simple harmonic motion.
    - With an amplitude proportional to their labeled value.
    - With an angular frequency proportional to their labeled value.
+   
 And all of them starting in the same horizontal line. A possible mathematical description of this system could be:
 
  <img align="center" src="https://github.com/malmriv/malmriv.github.io/blob/master/_posts/images/eq1.gif?raw=true"/>
