@@ -19,7 +19,7 @@ This isn't usually a problem, but starting from an overly complicated idea of wh
    
   A possible mathematical description of this system could be:
 
- <img align="center" src="https://latex.codecogs.com/gif.latex?\dpi{120}&space;y_k(t)&space;=&space;k&space;\sin&space;\big{(}&space;2\pi&space;k&space;t&space;\big{)}" title="y_k(t) = k \sin \big{(} 2\pi k t \big{)}" />
+ <img align="center" src="https://github.com/malmriv/malmriv.github.io/blob/master/_posts/images/eq1.gif?raw=true"/>
 
 So the least we'll need will be a time array.
 
