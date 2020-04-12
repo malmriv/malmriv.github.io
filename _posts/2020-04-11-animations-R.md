@@ -17,9 +17,9 @@ This isn't usually a problem, but starting from an overly complicated idea of wh
    - With an amplitude proportional to their labeled value.
    - With an angular frequency proportional to their labeled value.
    
-A possible mathematical description of this system could be:
+  A possible mathematical description of this system could be:
 
-<img src="https://latex.codecogs.com/png.latex?\dpi{150}&space;y_k(t)&space;=&space;k&space;\sin{\big{(}&space;2\pi&space;k&space;t&space;\big{)}}" title="y_k(t) = k \sin{\big{(} 2\pi k t \big{)}}" />
+ <img align="center" src="https://latex.codecogs.com/gif.latex?\dpi{120}&space;y_k(t)&space;=&space;k&space;\sin&space;\big{(}&space;2\pi&space;k&space;t&space;\big{)}" title="y_k(t) = k \sin \big{(} 2\pi k t \big{)}" />
 
 So the least we'll need will be a time array.
 
