@@ -12,16 +12,15 @@ tags:
 Animating the results of a simulation comes in handy very frequently, especially when one wants to check the evolution of a system. Even though R does not have native tools especially desiged to generate .gif files, it can be easily done by putting a few lines of code together. To illustrate this, I'll show the steps to create [a simple animation](https://twitter.com/ratanegrx/status/1247655608544878599), but keep in mind that the process can be modified to make more complex animations. (There's nothing a quick Google search won't give away when it comes to making an R plot look prettier). The full code for this example is available at the end of this post, but I want to explain every bit first to make it clear. Let's start.
 
 1. **Have a clear idea of what you want to show.**
-This isn't usually a problem, but starting from an overly complicated idea of what you want to get can make things unnecesarily harder. Aim for the bare minimum and for functionality instead of thinking about the glossy details first. In this case, I'll reproduce an idea I had a few days ago. Suppose we have N bodies labeled 1, 2, 3, (...) N, each one:
+This isn't usually a problem, but starting from an overly complicated idea of what you want to get can make things unnecesarily hard. Aim for the bare minimum and for functionality instead of going for the glossy details first. In this case, I'll reproduce an idea I had a few days ago. Suppose we have N bodies labeled 1, 2, 3, (...) N, each one:
    - Following a simple harmonic motion.
    - With an amplitude proportional to their labeled value.
    - With an angular frequency proportional to their labeled value.
-   
-  A possible mathematical description of this system could be:
+And all of them starting in the same horizontal line. A possible mathematical description of this system could be:
 
  <img align="center" src="https://github.com/malmriv/malmriv.github.io/blob/master/_posts/images/eq1.gif?raw=true"/>
 
-So the least we'll need will be a time array.
+Where the k-th body has an amplitude and a frequency not only proportional, but equal to its "label". The least we'll need will be, therefore, a time array.
 
 2. **Define the data structures you'll be reading for the animation.**
 This is trivial when all you have to do is plotting data from a simulation, since the results are usually available in some kind of readable file. In this case, I'll generate the "data" we are going to plot. Initially, we need a time array, so let's define it as a sequence of length 700. Seven hundred seems like an arbitrary number, but you'll see I have set it like that for a simple reason: I want that to be the number of frames to generate. In R, this is done with a single line:
