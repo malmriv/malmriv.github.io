@@ -5,7 +5,7 @@ permalink: /posts/2020/02/emoji-heatmap/
 tags:
   - R
   - data visualization
-  - curious
+  - curiousity
   - data mining
 ---
 
@@ -15,8 +15,8 @@ So I was wondering: what would a heat map of the usage of the 🇳🇬 emoji loo
 
  * Very few people geo-tag their tweets. In my sample of ~ 32.000 tweets, only about 7% had coordinates attached.
  * Most tweets come from Lagos, the most populated city in Nigeria:
- ![Nigeria and Spain](https://raw.githubusercontent.com/malmriv/twitter_heatmap/master/results/world.png)
+ ![Nigeria and Spain](https://github.com/malmriv/r-lab/blob/master/output/spain-africa.png?raw=true)
  * Andalusians do leave a trace, according to this script. They're also the main source of tweets in Spain:
- ![Spain](https://github.com/malmriv/twitter_heatmap/blob/master/results/spain.png?raw=true)
- * There is a local football team from a Northern town with a population of 9.000 whose flag is very similar to that of Nigeria. (Took me awhile to figure out why the small focus in the north of the country, seemingly in the middle of nowhere).
+ ![Spain](https://github.com/malmriv/r-lab/blob/master/output/andalucia.png?raw=true)
+ * There is a local football team from a Northern town with a population of 9.000 whose flag is very similar to that of Nigeria. Took me a while to figure out why there was a small focus in the north of the country, seemingly in the middle of nowhere. The focus is not pictured in any of the images, though.
 
