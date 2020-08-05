@@ -8,7 +8,7 @@ tags:
 ---
 Yesterday, I decided to start using a different web service to manage my activity as a moviegoer. I have been using FilmAffinity (the Spanish hub for film snobbery) for the last seven years. The platform which has been in desperate need for an update, and I was missing the social side of the whole experience. Therefore, I created a Letterboxd account, but I faced the problem of importing all my movies into the new platform. A quick Google search returned several Python-based solutions, but all of them seemed to be lacking something. Some scripts I could just not make work due to FilmAffinity having changed certain bits of their own HTML code, some of them were written with the Spanish version of FilmAffinity in mind. This wouldn't be too important if the titles were the same in all languages, but the Spanish version of FilmAffinity shows the Spanish/Latin American translation of the movie. Being Letterboxd an English-language platform, this means that a good chunk of the movies I had seen could not be automatically imported. After trying to modify some Python scripts made by someone else, I decided to write my own script in R (which I am more comfortable with).
 
-The idea was to go through every page in my profile and extract relevant information about the movies that I've seen in order to generate a compatible .csv file. (The fact that it's for Letterboxd does not really impact the process at all, except for the names used in the .csv file columns). So naturally I checked FilmAffinity's source code.
+The idea is to go through every page in my profile and extract relevant information about the movies that I've seen in order to generate a compatible .csv file. (The fact that it's for Letterboxd does not really impact the process at all, except for the names used in the .csv file columns).
 
 ![Output of the script:](https://github.com/malmriv/malmriv.github.io/blob/master/_posts/images/outputfile.png?raw=true)
 
@@ -37,7 +37,7 @@ url = paste("https://www.filmaffinity.com/en/userratings.php?user_id=",id,sep=""
 df = as.data.frame(matrix(data=NA,ncol=3,nrow=pages*50))
 ```
 
-The next step is to go through every page, extracting the list of names, directors and ratings. Once that's done, we need to format everything properly. Turns out movie names (as well as those of TV shows and TV show episodes) are contained in a `div` tag with class `mc-title`. The director/s are contained in a `div` with class `mc-director`, and the rating is stored in a `div` with class `ur-mr-rat`. But for some reason  the `rvest` package has trouble finding ratings; luckily we can take advantage of the embedded .png file showing the number of stars (representing our rating of the movie), which is stored in a `div` with class `ur-mr-rat-img`. Therefore:
+The next step is to go through every page, extracting the list of names, directors and ratings. Once that's done, we need to format everything properly. Checking FilmAffinity's source code, movie names (as well as those of TV shows and TV show episodes) are contained in a `div` tag with class `mc-title`. The director/s are contained in a `div` with class `mc-director`, and the rating is stored in a `div` with class `ur-mr-rat`. But for some reason  the `rvest` package has trouble finding ratings; luckily we can take advantage of the embedded .png file showing the number of stars (representing our rating of the movie), which is stored in a `div` with class `ur-mr-rat-img`. Therefore:
  
 ```r
 for(i in 1:pages) {
