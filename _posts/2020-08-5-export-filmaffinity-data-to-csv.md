@@ -52,7 +52,7 @@ for(i in 1:pages) {
 }
 ```
 
-Gives us the list of titles, directors and ratings in every page. In the innermost for loop, we format each one of those. Particularly, titles should be editted so that no commas remain (could cause conflicts in the resulting comma separated file). The directors can be just extracted without further formatting. The code looks messy, but it's been generated using RStudio's navigator -I did not spend time writting the code to extract particular entries in the scraped data frame:
+Gives us the list of titles, directors and ratings in every page. In the innermost for loop, we format each one of those. Particularly, titles should be editted so that no commas remain (could cause conflicts in the resulting comma separated file). The directors can be just extracted without further formatting. The code looks messy, but it's been generated using RStudio's navigator —I did not spend time writting the code to extract particular entries—.
 
 ```r
 title = xml_attrs(xml_child(titles[[j]], 1))[["title"]]
