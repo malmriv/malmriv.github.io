@@ -31,7 +31,7 @@ The user ID can be checked in the URL of the user's profile page, and the number
 ```r
 url = paste("https://www.filmaffinity.com/en/userratings.php?user_id=",id,sep="")
 ```
-(Notice the */en/* we're using the English version of the site). We will need only two columns to identify the movie (Name and Director) and one to store our rating (Rating10, as (specified by Letterboxd)[https://letterboxd.com/about/importing-data/], since our marks are on a scale from 1 to 10). We create a data frame:
+(Notice the */en/* we're using the English version of the site). We will need only two columns to identify the movie (Name and Director) and one to store our rating (Rating10, as [specified by Letterboxd](https://letterboxd.com/about/importing-data/), since our marks are on a scale from 1 to 10). We create a data frame:
 
 ```r
 df = as.data.frame(matrix(data=NA,ncol=3,nrow=pages*50))
@@ -91,4 +91,4 @@ The result is pretty good: out of 540 movies in my profile, I could import 538 w
 ![Output of the script:](https://github.com/malmriv/malmriv.github.io/blob/master/_posts/images/result.png?raw=true)
 
 
-The code is available (in my GitHub profile)[https://github.com/malmriv/r-lab/blob/master/fa-to-csv.R].
+The code is available [in my GitHub profile](https://github.com/malmriv/r-lab/blob/master/fa-to-csv.R).
