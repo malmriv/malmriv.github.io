@@ -26,9 +26,9 @@ pages = 20
 The user ID can be checked in the URL of the user's profile page, and the number of pages to scrap can be seen at the bottom of the page. Therefore, the URL to scrap will be:
 
 ```r
-url = paste("https://www.filmaffinity.com/**en**/userratings.php?user_id=",id,sep="")
+url = paste("https://www.filmaffinity.com/en/userratings.php?user_id=",id,sep="")
 ```
-(Notice the bold letters: we're using the English version of the site). We will need only two columns to identify the movie (Name and Director) and one to store our rating (Rating10, as specified by Letterboxd, since our marks are on a scale from 1 to 10). We create a data frame:
+(Notice the */en/* we're using the English version of the site). We will need only two columns to identify the movie (Name and Director) and one to store our rating (Rating10, as specified by Letterboxd, since our marks are on a scale from 1 to 10). We create a data frame:
 
 ```r
 df = as.data.frame(matrix(data=NA,ncol=3,nrow=pages*50))
