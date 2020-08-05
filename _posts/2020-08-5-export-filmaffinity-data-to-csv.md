@@ -83,4 +83,4 @@ df = na.omit(df)
 write.csv(df,file="output.csv",row.names=F,quote=F)
 ```
 
-The result is pretty good: out of 540 movies in my profile, I could import 538 with no problem (99.6% success rate!). The code is available in my GitHub profile.
+The result is pretty good: out of 540 movies in my profile, I could import 538 with no problem (99.6% success rate!). The code is available (in my GitHub profile)[https://github.com/malmriv/r-lab/blob/master/fa-to-csv.R].
