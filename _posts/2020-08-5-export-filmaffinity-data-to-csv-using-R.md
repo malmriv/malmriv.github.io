@@ -1,5 +1,5 @@
 ---
-title: Exporting your FilmAffinity profile to a .csv file
+title: Exporting your FilmAffinity profile to a .csv file using R.
 date: 2020-08-5
 permalink: /posts/2020/08/export-filmaffinity-data-to-csv/
 tags:
