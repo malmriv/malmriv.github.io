@@ -28,13 +28,13 @@ The user ID can be checked in the URL of the user's profile page, and the number
 ```r
 url = paste("https://www.filmaffinity.com/en/userratings.php?user_id=",id,sep="")
 ```
-(Notice the */en/* we're using the English version of the site). We will need only two columns to identify the movie (Name and Director) and one to store our rating (Rating10, as specified by Letterboxd, since our marks are on a scale from 1 to 10). We create a data frame:
+(Notice the */en/* we're using the English version of the site). We will need only two columns to identify the movie (Name and Director) and one to store our rating (Rating10, as (specified by Letterboxd)[https://letterboxd.com/about/importing-data/], since our marks are on a scale from 1 to 10). We create a data frame:
 
 ```r
 df = as.data.frame(matrix(data=NA,ncol=3,nrow=pages*50))
 ```
 
-The next step is to go through every page, extracting the list of names, directors and ratings. Once that's done, we need to format everything properly. Turns out the Rvest package has trouble finding ratings, but we can take advantage of the image with the number of stars representing our rating, which is stored in a `div` with class `ur-mr-rat-img`. Therefore:
+The next step is to go through every page, extracting the list of names, directors and ratings. Once that's done, we need to format everything properly. Turns out the `rvest` package has trouble finding ratings, but we can take advantage of the image with the number of stars representing our rating, which is stored in a `div` with class `ur-mr-rat-img`. Therefore:
 
 ```r
 for(i in 1:pages) {
@@ -52,7 +52,7 @@ for(i in 1:pages) {
 }
 ```
 
-Gives us the list of titles, directors and ratings in every page. In the innermost for loop, we format each one of those. Particularly, titles should be editted so that no commas remain (could cause conflicts in the resulting comma separated file). The directors can be just extracted without further formatting. The code looks messy, but it's been generated using RStudio's navigator —I did not spend time writting the code to extract particular entries—.
+Gives us the list of titles, directors and ratings in every page. (The dot before the class name is necessary, since this is how we differentiate classes from ID's in HTML). In the innermost for loop, whose content is here omitted, we format each one of those. Particularly, titles should be editted so that no commas remain (could cause conflicts in the resulting comma separated file). The directors can be just extracted without further formatting. The code looks messy, but it's been generated using RStudio's navigator —I did not spend time writting the code to extract particular entries—.
 
 ```r
 title = xml_attrs(xml_child(titles[[j]], 1))[["title"]]
