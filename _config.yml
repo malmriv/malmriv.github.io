@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &phlogh
+  username               : &ratanegrx
 facebook:
   username               :
   app_id                 :
@@ -83,7 +83,7 @@ author:
   name             : "Manuel Almagro Rivas."
   avatar           : "https://malmriv.github.io/files/liverpool2.jpg"
   bio              : "Physics student @ University of Granada (Spain). Interested in data science."
-  location         : "Andalucía (Spain)"
+  location         : "Granada (Spain)"
   employer         :
   pubmed           : 
   googlescholar    : 
