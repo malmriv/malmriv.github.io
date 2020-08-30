@@ -20,17 +20,19 @@ Education
   
 Skills
 ======
-* Data manipulation, analysis and visualization with R.
-* High-volume data manipulation and simulations with Fortran.
-* Technical translation (English into Spanish).
-* Document formatting with LaTeX.
+* Data parsing, cleaning & exploration in R (since early 2018).
+* Data analysis and visualization in R (since early 2018).
+* Proficient in Fortran 77 for high-performance simulations (since 2017).
+* Some knowledge of HTML, CSS & JavaScript (used sporadically since 2008).
+* Operational knowledge of LaTeX.
+* Technical translation (EN-ES, ES-EN).
 * Currently starting to learn Python.
 
 Languages
 ======
-* Spanish. Native.
-* English. Certificate of Proficiency in English (CPE/C2, University of Cambridge). November 2018.
-* Russian. Currently studying for the First Certification Level (TORFL-I/B1, St. Petersburg University).
+* 🇪🇸 Spanish. (Natively).
+* 🇬🇧 English. Certificate of Proficiency in English (CPE/C2, *University of Cambridge*). Grade B: 219/230. November 2018.
+* 🇷🇺 Russian. Studying for the First Certification Level (TORFL-I/B1, *St. Petersburg University*).
 
 Publications
 ======
