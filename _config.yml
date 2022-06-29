@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Manuel Almagro Rivas."
-  avatar           : "https://malmriv.github.io/files/room-pic.jpeg"
+  avatar           : "https://malmriv.github.io/files/liverpool2.jpg"
   bio              : "Physics student @ University of Granada (Spain). Interested in data science."
   location         : "Granada (Spain)"
   employer         :
@@ -114,7 +114,7 @@ author:
   weibo            :
   xing             :
   youtube          :
-  wikipedia        : Malmriv
+  wikipedia        :
 
 
 # Reading Files
