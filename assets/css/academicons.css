@@ -325,3 +325,12 @@
 .fa.fa-pull-right {
   margin-left: .3em;
 }
+::-moz-selection {
+  background-color: #dbf0f8;
+	color: #000;
+}
+ 
+::selection {
+	background-color: #dbf0f8;
+	color: #000;
+}
