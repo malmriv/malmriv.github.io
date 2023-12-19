@@ -8,15 +8,22 @@ redirect_from:
 ---
 
 {% include base_path %}
+Professional
+======
+* Junior integration analyst at Avvale (2023 to date).
+  * SAP Cloud Platform Integration, Groovy scripting, client relationships.
 
 Education
 ======
+* Degree in Physics (2016 - 2023). University of Granada.
 * Degree in Chemistry (2013 - 2016). University of Jaén.
   * Award for Best Entrance Grades (2013, Jaén).
   * Association of Chemists of Andalusia (2013 - 2016).
-  * Experience in molecular 3D-modeling. See [contributions](https://commons.wikimedia.org/wiki/Special:ListFiles?limit=100&user=Malmriv).
+  * Experience in molecular 3D-modeling.
   * Unfinished. (Switched to Physics).
-* Degree in Physics (2016 - currently). University of Granada.
+* Secondary Education: Technical & Scientific Route. Las Fuentezuelas (Jaén).
+  * Honours: top five students (course 2012-2013).
+
   
 Skills
 ======
