@@ -32,13 +32,12 @@ Skills
 * Some knowledge of HTML, CSS & JavaScript (used sporadically since 2008).
 * Operational knowledge of LaTeX.
 * Technical translation (EN-ES, ES-EN).
-* Currently starting to learn Python.
 
 Languages
 ======
 * 🇪🇸 Spanish. (Natively).
 * 🇬🇧 English. Certificate of Proficiency in English (CPE/C2, *University of Cambridge*). Grade B: 219/230. November 2018.
-* 🇷🇺 Russian. Studying for the First Certification Level (TORFL-I/B1, *St. Petersburg University*).
+* 🇷🇺 Russian. Certificate in Russian Culture & Language (B1, *University of Granada*). June 2021.
 
 Publications
 ======
