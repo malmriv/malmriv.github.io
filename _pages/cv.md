@@ -8,9 +8,10 @@ redirect_from:
 ---
 
 {% include base_path %}
-Professional
+
+Career
 ======
-* Junior integration analyst at Avvale (2023 to date).
+* Integration consultant at Avvale (2023 to date).
   * SAP Cloud Platform Integration, Groovy scripting, client relationships.
 
 Education
@@ -21,7 +22,7 @@ Education
   * Association of Chemists of Andalusia (2013 - 2016).
   * Experience in molecular 3D-modeling.
   * Unfinished. (Switched to Physics).
-* Secondary Education: Technical & Scientific Route. Las Fuentezuelas (Jaén).
+* Secondary Education: Technical & Scientific Path. Las Fuentezuelas (Jaén).
   * Honours: top five students (course 2012-2013).
 
   
