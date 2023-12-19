@@ -19,11 +19,9 @@ Education
 * Degree in Physics (2016 - 2023). University of Granada.
 * Degree in Chemistry (2013 - 2016). University of Jaén.
   * Award for Best Entrance Grades (2013, Jaén).
-  * Association of Chemists of Andalusia (2013 - 2016).
-  * Experience in molecular 3D-modeling.
-  * Unfinished. (Switched to Physics).
-* Secondary Education: Technical & Scientific Path. Las Fuentezuelas (Jaén).
-  * Honours: top five students (course 2012-2013).
+  * Switched to Physics.
+* Secondary Education: Scientific Path (2011-2013). Las Fuentezuelas, Jaén.
+  * Honours: top five students, class of 2013.
 
   
 Skills
