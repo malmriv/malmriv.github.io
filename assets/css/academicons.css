@@ -11,7 +11,7 @@
         url('../fonts/academicons.ttf?v=1.8.0') format('truetype'),
         url('../fonts/academicons.woff?v=1.8.0') format('woff'),
         url('../fonts/academicons.svg?v=1.8.0#academicons') format('svg');
-    font-weight: 700;
+    font-weight: normal;
     font-style: normal;
 }
 .ai {
