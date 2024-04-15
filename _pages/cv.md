@@ -11,8 +11,8 @@ redirect_from:
 
 Career
 ======
-Integration consultant @ [Avvale](https://www.avvale.com) (2023 to date).
-  * Development, deploying and maintenance of integration flows.
+Integration developer @ [Avvale](https://www.avvale.com) (2023 to date).
+  * Development, deployment and maintenance of integration flows.
     * SAP Cloud Platform Integration & SAP PI/PO.
     * API testing via Postman & SoapUI.
     * Relevant technologies and protocols: Groovy, XSLT, WSDL...
