@@ -12,12 +12,13 @@ redirect_from:
 Career
 ======
 * Integration consultant at Avvale (2023 to date).
-  * SAP Cloud Platform Integration & SAP PI/PO.
+  * Development, deploying and maintenance of integration flows.
+    * SAP Cloud Platform Integration & SAP PI/PO.
+    * API testing via Postman & SoapUI.
+    * Relevant technologies and protocols: Groovy, XSLT, WSDL...
   * Knowledge of adjacent SAP products: SAP S/4HANA Cloud, SAP C4C, SAP Marketing Cloud, SAP.
-  * Experience in the use of relevant technologies and protocols: Groovy, XSLT, WSDL...
-  * API testing via Postman & SoapUI.
   * Experience with electronic invoice integration & certificate handling.
-  * Direct support and coordination with clients.
+  * Direct client support.
 
 Education
 ======
