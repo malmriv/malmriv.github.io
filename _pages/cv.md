@@ -11,7 +11,7 @@ redirect_from:
 
 Career
 ======
-* Integration consultant at Avvale (2023 to date).
+Integration consultant @ [Avvale](https://www.avvale.com) (2023 to date).
   * Development, deploying and maintenance of integration flows.
     * SAP Cloud Platform Integration & SAP PI/PO.
     * API testing via Postman & SoapUI.
