@@ -14,9 +14,10 @@ Career
 Integration developer @ [Avvale](https://www.avvale.com) (2023 to date).
   * Development, deployment and maintenance of integration flows.
     * SAP Cloud Platform Integration & SAP PI/PO.
-    * API testing via Postman & SoapUI.
+    * SOAP and REST API handling via Postman & SoapUI.
     * Relevant technologies and protocols: Groovy, XSLT, WSDL...
-  * Knowledge of adjacent SAP products: SAP S/4HANA Cloud, SAP C4C, SAP Marketing Cloud, SAP.
+    * Authentication methods & security protocols: OAuth, token based, CSRF token...
+  * Knowledge of adjacent SAP products: ECC, C4C, S/4HANA Cloud, Marketing Cloud.
   * Experience with electronic invoice integration & certificate handling.
   * Direct client support.
 
