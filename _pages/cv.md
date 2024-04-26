@@ -13,7 +13,7 @@ Career
 ======
 Integration developer @ [Avvale](https://www.avvale.com) (2023 to date).
   * Development, deployment and maintenance of integration flows.
-    * SAP Cloud Platform Integration & SAP PI/PO.
+    * SAP Cloud Platform Integration, w/ some minor experience in SAP PI/PO.
     * SOAP and REST API handling via Postman & SoapUI.
     * Relevant technologies and protocols: Groovy, XSLT, WSDL...
     * Authentication methods & security protocols: OAuth, token based, CSRF token...
