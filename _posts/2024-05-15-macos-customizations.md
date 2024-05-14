@@ -10,7 +10,7 @@ tags:
 
 I started using a Mac back in 2018. My computer, an fairly standard HP laptop I'd bought back in 2013, was beginning to become a source of troubles. The charger wouldn't charge, the keyboard wouldn't hold the keys in place, and generally the computer wouldn't compute. This was a problem, given that I was a destitute student. To my surprise, older MacBooks (the white poylycarbonate MacBooks made back in 2010) where dirt cheap, even when bought from overseas and thus with shipping and custom costs included in the price. I bought one for about 130€. It lacked the Euro (€) key and I couldn't type words containing an eñe directly, but it felt like a small inconvenience and I quickly found workarounds. That little laptop proved hardy and powerful enough for my daily tasks, and it carried me through a computational physics course during which the rubber in the bottom peeled due to the excessive heat emanating from its dying processor. It was a pretty nice machine.
 
-I've been using a MacBook since then and after the initial love affair weaned, the machine revealed to me some of its flaws. I do not think they are important flaws, and basically all of them can be fixed almost instantly. Since I need to go back to them every once in a while, I think having them here would be more convenient than searching through StackExchange. So here they go.
+I've been using a MacBook since then and after the initial love affair weaned, the machine revealed to me some of its flaws. I do not think they are important flaws, and all of them can be fixed almost instantly. Since I need to go back to them every once in a while, I think having them here would be more convenient than searching through StackExchange. So here they go!
 
 1. I find macOS' standard key speed a little slow. If you want to delete a word letter by letter, or type twenty spaces, or go ten lines up in the same paragraph, pushing a key and waiting for it to be executed N times takes longer than it should. Luckily, the waiting time between repetitions can be taken down from the standard value with the following line pasted onto the terminal:
 ```bash
@@ -64,4 +64,4 @@ overrideOtherMouseUp:start()
 dragOtherToScroll:start()
 ```
 
-This post will be in continuous evolution!
+I still have some pending customizations to add later. This post will be in continous evolution, as long as I keep using macOS, so feel free to email me if you find some error in the code provided!
