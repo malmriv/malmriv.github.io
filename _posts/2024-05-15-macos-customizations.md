@@ -17,7 +17,7 @@ I've been using a MacBook since then and after the initial love affair weaned, t
 defaults write NSGlobalDomain KeyRepeat -int 1
 ```
 
-2. The dock takes a fraction of a second to appear once you hover the side of the screen where it's located. Furthermore, the animation with which it emerges takes another aditional fraction of a second, resulting in a somewhat slow experience. Both delays can be toned down so that the dock shows instantly and emerges with a quick animation. I found my ideal combination of settings to be the following:
+2. The dock takes a fraction of a second to appear once you hover near the side of the screen where it's located. Furthermore, the animation with which it emerges takes another aditional fraction of a second, resulting in a somewhat slow experience. Both delays can be toned down so that the dock shows instantly and emerges with a quick animation. I found my ideal combination of settings to be the following:
 ```bash
 defaults write com.apple.dock autohide-time-modifier -float 0.50; defaults write com.apple.dock autohide-delay -float 0; killall Dock
 ```
