@@ -64,4 +64,4 @@ overrideOtherMouseUp:start()
 dragOtherToScroll:start()
 ```
 
-I still have some pending customizations to add later. This post will be in continous evolution, as long as I keep using macOS, so feel free to email me if you find some error in the code provided!
+I still have some pending customizations to add. This post will be in continous evolution, as long as I keep using macOS, so feel free to email me if you find some error in the code provided!
