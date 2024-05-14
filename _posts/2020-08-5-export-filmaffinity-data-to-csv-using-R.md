@@ -6,6 +6,8 @@ tags:
   - R
   - web scraping
 ---
+Updated May 14th 2024: the code stopped working after FilmAffinity changed the way ratings are shown. A small change in the code was needed to take this into consideration. Thanks to those who emailed me about it!
+
 Yesterday, I decided to start using a different web service to manage my activity as a moviegoer. I have been using FilmAffinity (the Spanish hub for film snobbery) for the last seven years. The platform has been in desperate need for an update, and I was missing the social side of the whole experience. Therefore, I created a Letterboxd account, but I faced the problem of importing all my movies. A quick Google search returned several Python-based solutions, but all of them seemed to be lacking something. Some scripts I could just not make work due to FilmAffinity having changed certain bits of their own HTML code, and some of them were written with the Spanish version of FilmAffinity in mind. This wouldn't be too important if the titles were the same in all languages, but the Spanish version of FilmAffinity shows the Spanish/Latin American translation of the movie. Being Letterboxd an English-language platform, this means that a good chunk of the movies I had watched could not be automatically imported. After trying to modify some Python scripts made by someone else, I decided to write my own script in R (which I am more comfortable with).
 
 The idea is to go through every page in my profile and extract relevant information about the movies that I've watched in order to generate a compatible .csv file. (The fact that it's for Letterboxd does not really impact the process at all, except for the names used in the .csv file columns).
@@ -66,7 +68,7 @@ director = xml_attrs(xml_child(xml_child(xml_child(directors[[j]], 1), 1), 1))[[
 The URL of the star rating can be edited to get just the number. Since URLs have the format `/imgs/myratings/X_.png`, one can write:
 
 ```r
-rating = sub("/imgs/myratings/","",xml_attrs(xml_child(ratings[[j]], 1))[["src"]])
+rating = sub("https://filmaffinity.com/images/myratings/","",xml_attrs(xml_child(ratings[[j]], 1))[["src"]])
 rating = sub(".png","",rating)
 rating = sub("_","",rating)
 rating = as.integer(rating)
