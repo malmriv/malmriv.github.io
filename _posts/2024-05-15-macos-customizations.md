@@ -64,4 +64,10 @@ overrideOtherMouseUp:start()
 dragOtherToScroll:start()
 ```
 
+4. Opening TextEdit does not create a blank file. Instead, window asking which file to open comes up. To make it show a blank file directly, the following works:
+
+```bash
+defaults write com.apple.TextEdit NSShowAppCentricOpenPanelInsteadOfUntitledFile -bool false
+```
+
 I still have some pending customizations to add. This post will be in continuous evolution, as long as I keep using macOS, so feel free to email me if you find some error in the code provided!
