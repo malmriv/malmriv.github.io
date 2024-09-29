@@ -26,6 +26,8 @@ Many of the messages sent over the internet rely on SOAP APIs, a specific type o
 
 Because of this, I decided to write a WSDL generator myself. The details, as I said, are incredibly dull. But it became a challenge, and I decided to not only write a generator, but a whole interface so that others could use it too. It is now live, and it can be found [here](https://malmriv.shinyapps.io/WSDLGenerator/). How is this related to what I was tellin before? The thing is, I wrote it in R. I know R is often considered a language reserved to those in academia, to data scientists, to economists and bioinformaticians. But, just like bash can be used to much more than it's often given credit for, R can be used (has been used) to deploy whole web-apps. In this case, I took a problem and cut through every minor sub-task until it was solved, and I did it in R, and at no point in that process the language itself was a barrier.
 
+![](https://github.com/malmriv/malmriv.github.io/blob/master/_posts/images/wsdl-generator.png?raw=true)
+
 Had I decided to use a more proper tool, doing both of these things would have felt like a task. Maybe I did not feel like honing my Python skills, and maybe in that case I would've chosen to go to the gym instead of spending a couple hours coming up with a few lines of code that solve a problem I encounted almost weekly. But I decided to use the wrong tool, one that I knew how to use already, and came up with a very good solution. 
 
 In the end, the best tool for the job isn't always the most obvious one —sometimes it's the one that keeps you curious and makes you enjoy the process. Regardless of the language, what's important is finding creative ways to solve problems and, of course, having a good time.
