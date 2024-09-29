@@ -28,6 +28,6 @@ Because of this, I decided to write a WSDL generator myself. The details, as I s
 
 ![](https://github.com/malmriv/malmriv.github.io/blob/master/_posts/images/wsdl-generator.png?raw=true)
 
-Had I decided to use a more proper tool, doing both of these things would have felt like a task. Maybe I did not feel like honing my Python skills, and maybe in that case I would've chosen to go to the gym instead of spending a couple hours coming up with a few lines of code that solve a problem I encounted almost weekly. But I decided to use the wrong tool, one that I knew how to use already, and came up with a very good solution. 
+Had I decided to use a more proper tool, doing both of these things would have felt like a task. Maybe I did not feel like honing my Python skills, and maybe in that case I would've chosen to go to the gym instead of spending a couple hours coming up with a few lines of code that solve a problem I encounted almost weekly. But I decided to use the "wrong" tool, one that I knew how to use already, and came up with a very good solution.
 
-In the end, the best tool for the job isn't always the most obvious one —sometimes it's the one that keeps you curious and makes you enjoy the process. Regardless of the language, what's important is finding creative ways to solve problems and, of course, having a good time.
+In the end, the best tool for the job isn't always the most obvious one —sometimes it's the one that keeps you curious and makes you enjoy the process.  Regardless of the language, what's often important is finding creative ways to solve problems and, of course, having a good time.
