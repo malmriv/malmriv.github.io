@@ -44,6 +44,6 @@ redirect_from:
 
 # Languages
 
-* 🇪🇸 Spanish. (Natively).
-* 🇬🇧 English. Certificate of Proficiency in English (CPE/C2, *University of Cambridge*). Grade B: 219/230. November 2018.
-* 🇷🇺 Russian. Certificate in Russian Culture & Language (B1, *University of Granada*). June 2021.
+* 🇪🇸 Spanish. Native language.
+* 🇬🇧 English. Certificate of Proficiency in English (CPE/**C2**, *University of Cambridge*). Grade B: 219/230. November 2018.
+* 🇷🇺 Russian. Certificate in Russian Culture & Language (**B1**, *University of Granada*). June 2021.
