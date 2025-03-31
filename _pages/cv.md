@@ -12,7 +12,7 @@ redirect_from:
 
 ## Integration Developer @ [Avvale](https://www.avvale.com) (2023 to date)
 
-* **Development, deployment, and maintenance of integrations.**  
+* **Design, development and maintenance of integration processes.**  
   * SAP BTP, SAP Integration Suite, S/4HANA Cloud, SAP Cloud ALM.  
   * API development and maintenance (SOAP, REST, OData).  
   * Database integration and data processing.  
