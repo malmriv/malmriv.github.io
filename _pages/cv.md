@@ -23,7 +23,7 @@ redirect_from:
 * **Training & consultancy:** conducting training sessions for colleagues and clients.  
 * **Client support:** direct assistance and technical advisory.
 
-# Education
+## Education
 
 * Degree in Physics (2016 - 2023). University of Granada.
 * Degree in Chemistry (2013 - 2016). University of Jaén.
@@ -33,7 +33,7 @@ redirect_from:
   * Honours: top five students, class of 2013.
 
   
-# Skills
+## Skills
 
 * Data parsing, cleaning & exploration in R (since early 2018).
 * Data analysis and visualization in R (since early 2018).
@@ -42,7 +42,7 @@ redirect_from:
 * Operational knowledge of LaTeX.
 * Technical translation (EN-ES, ES-EN).
 
-# Languages
+## Languages
 
 * 🇪🇸 Spanish. Native language.
 * 🇬🇧 English. Certificate of Proficiency in English (CPE/**C2**, *University of Cambridge*). Grade B: 219/230. November 2018.
