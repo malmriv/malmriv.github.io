@@ -9,19 +9,22 @@ redirect_from:
 
 {% include base_path %}
 
-Career
-======
-Integration developer @ [Avvale](https://www.avvale.com) (2023 to date).
-  * Development, deployment and maintenance of integration flows.
-    * SAP Cloud Platform Integration, w/ some minor experience in SAP PI/PO.
-    * SOAP and REST API handling via Postman & SoapUI.
-    * Relevant technologies and protocols: Groovy, XSLT, WSDL...
-    * Authentication methods & security protocols: OAuth, token based, CSRF token...
-  * Knowledge of adjacent SAP products: ECC, C4C, S/4HANA Cloud, Marketing Cloud.
-  * Experience with electronic invoice integration & certificate handling.
-  * Direct client support.
+# Career
 
-Education
+## Integration Developer @ [Avvale](https://www.avvale.com) (2023 to date)
+
+* **Development, deployment, and maintenance of integrations.**  
+  * SAP BTP, SAP Integration Suite, S/4HANA Cloud, SAP Cloud ALM.  
+  * API development and maintenance (SOAP, REST, OData).  
+  * Database integration and data processing.  
+  * Relevant technologies: Java, Groovy, SQL, XSLT.  
+  * Authentication methods & security protocols: OAuth, JWT, CSRF...  
+  * On-premise integration: Cloud Connector, (some) SAP ECC.  
+* **Solution development:** automation and optimization of complex functional processes.  
+* **Training & consultancy:** conducting training sessions for colleagues and clients.  
+* **Client support:** direct assistance and technical advisory.
+
+# Education
 ======
 * Degree in Physics (2016 - 2023). University of Granada.
 * Degree in Chemistry (2013 - 2016). University of Jaén.
@@ -31,7 +34,7 @@ Education
   * Honours: top five students, class of 2013.
 
   
-Skills
+# Skills
 ======
 * Data parsing, cleaning & exploration in R (since early 2018).
 * Data analysis and visualization in R (since early 2018).
@@ -40,14 +43,8 @@ Skills
 * Operational knowledge of LaTeX.
 * Technical translation (EN-ES, ES-EN).
 
-Languages
+# Languages
 ======
 * 🇪🇸 Spanish. (Natively).
 * 🇬🇧 English. Certificate of Proficiency in English (CPE/C2, *University of Cambridge*). Grade B: 219/230. November 2018.
 * 🇷🇺 Russian. Certificate in Russian Culture & Language (B1, *University of Granada*). June 2021.
-
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
