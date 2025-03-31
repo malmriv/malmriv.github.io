@@ -1,15 +1,14 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
+  - /career
 ---
 
 {% include base_path %}
-
-# Career
 
 ## Integration Developer @ [Avvale](https://www.avvale.com) (2023 to date)
 
