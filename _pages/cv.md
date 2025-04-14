@@ -10,6 +10,8 @@ redirect_from:
 
 {% include base_path %}
 
+An updated version of my CV can be found [here]({{site.url}}/files/CV.pdf) (in Spanish).
+
 ## Integration Developer @ [Avvale](https://www.avvale.com) (2023 to date)
 
 * **Design, development and maintenance of integration processes.**  
