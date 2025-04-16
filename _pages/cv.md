@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-An updated version of my CV can be found [here]({{site.url}}/files/CV.pdf) (in Spanish).
+My CV can be found here both in [English]({{site.url}}/files/CV-eng.pdf) and [Spanish]({{site.url}}/files/CV-esp.pdf).
 
 ## Integration Developer @ [Avvale](https://www.avvale.com) (2023 to date)
 
