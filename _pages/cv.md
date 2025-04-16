@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-My CV can be found here both in [English]({{site.url}}/files/CV-eng.pdf) and [Spanish]({{site.url}}/files/CV-esp.pdf).
+My updated CV can be found here both in [English]({{site.url}}/files/CV-eng.pdf) and [Spanish]({{site.url}}/files/CV-esp.pdf). Here follows a summary of my current skills.
 
 ## Integration Developer @ [Avvale](https://www.avvale.com) (2023 to date)
 
