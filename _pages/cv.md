@@ -37,7 +37,7 @@ My updated CV can be found here both in [English]({{site.url}}/files/CV-eng.pdf)
 * **SAP Ecosystem:**  
   * SAP Integration Suite (Cloud Integration, API Management), S/4HANA Cloud, SAP Cloud ALM.
 * **General Integration Knowledge:**  
-  * Message mapping (XML via XSD/WSDL, JSON).  
+  * Message mapping (XML via XSD/WSDL, JSON via Groovy, etc.)  
   * Authentication methods (CSRF, JWT, OAuth, API Key).  
   * API testing through Postman, Bruno, SoapUI.  
   * Best practices and resilient, maintainable integration patterns.
