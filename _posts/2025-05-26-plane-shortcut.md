@@ -40,7 +40,7 @@ Some considerations:
 
 So, the API should receive those headers, compute the bounding box, and send a GET request to FR24’s API accordingly.
 
-I chose to write the API in R, just to prove how versatile it is (and because I like R 🙂).
+I chose to write the API in R, just to prove how versatile it is, and because I like R :)
 
 ## Deploy your API
 There are many hosting options. I used Render.com for a few simple reasons: it supports Docker natively, and its free plan is perfect for small projects. The only drawback is something called “winding down”—if your instance hasn’t received requests in a while, it takes a few seconds to start up again. That’s fine for me—it’s a hobby project. Paying about 6 euros a month would solve this, but there’s no rush.
@@ -48,7 +48,7 @@ There are many hosting options. I used Render.com for a few simple reasons: it s
 ## Technical details
 In more precise terms, the automation works like this. The [repo is here](https://github.com/malmriv/WhereIsThatPlaneGoing/tree/main) and is public. A high-level overview:
 
-1. The Shortcut is built using Apple’s tools. Download the [template here](https://github.com/malmriv/WhereIsThatPlaneGoing/blob/main/shortcut/%C2%BFDo%CC%81nde%20va%20ese%20avio%CC%81n%3F.shortcut).
+1. The Shortcut is built using Apple’s tools. Download the [template here](https://github.com/malmriv/WhereIsThatPlaneGoing/blob/main/shortcut/%C2%BFDo%CC%81nde%20va%20ese%20avio%CC%81n%3F.shortcut?raw=true).
 2. A `GET` request is sent to the API with two custom headers: `Latitud` and `Longitud`, each containing your location in decimal degrees.
 3. The API runs in a Docker container hosted on [Render.com](https://render.com). It includes:
    - A `plumber.R` script exposing the API using [Plumber](https://www.rplumber.io/)
