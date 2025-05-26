@@ -70,4 +70,4 @@ dragOtherToScroll:start()
 defaults write com.apple.TextEdit NSShowAppCentricOpenPanelInsteadOfUntitledFile -bool false
 ```
 
-I still have some pending customizations to add. This post will be in continuous evolution, as long as I keep using macOS, so feel free to email me if you find some error in the code provided!
+I still have some pending customizations to add to this list. This post will be in continuous evolution, as long as I keep using macOS, so feel free to email me if you find some error in the code provided!
