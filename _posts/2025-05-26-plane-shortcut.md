@@ -17,7 +17,7 @@ I thought it could be fun to build some kind of automation. The idea was simple:
 
 ![Example result](https://github.com/malmriv/malmriv.github.io/blob/master/images/captura_witpg.jpeg?raw=true)
 
-Without further ado, here are the steps to reproduce this automation:
+Without further ado, here are the details on how to reproduce this automation.
 
 ## Create an iPhone Shortcut
 I've uploaded the shortcut, and you can [download it here](https://github.com/malmriv/WhereIsThatPlaneGoing/blob/main/shortcut/%C2%BFDo%CC%81nde%20va%20ese%20avio%CC%81n%3F.shortcut) (works for iOS and macOS). Apple Shortcuts are surprisingly versatile: you can parse JSON, send and receive HTTP requests, and access a wide range of iOS-specific actions. If you're curious, try building it yourself. The shortcut should:
