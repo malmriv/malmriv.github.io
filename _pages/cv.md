@@ -38,7 +38,7 @@ I currently work as an integration consultant. I would like to continue developi
 
 ### SAP Ecosystem
 - Deep knowledge of SAP Integration Suite: Cloud Integration, API Manager.
-- Use of adjacent tools: SAP Cloud ALM, S/4HANA Cloud.
+- Advanced use of adjacent tools: SAP Cloud ALM, S/4HANA Cloud.
 
 ### General Integration Knowledge
 - Message mapping (XML vía XSD/WSDL, JSON...).
