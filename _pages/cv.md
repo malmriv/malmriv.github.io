@@ -10,70 +10,95 @@ redirect_from:
 
 {% include base_path %}
 
-My updated CV can be found here both in [English]({{site.url}}/files/CV-eng.pdf) and [Spanish]({{site.url}}/files/CV-esp.pdf).
+My updated CV can be found here both in [English]({{site.url}}/files/CV-eng.pdf) and [Spanish]({{site.url}}/files/CV-esp.pdf). (Last update: 26th July 2025).
+
+---
+
+## Presentation & objectives
+
+I currently work as an integration consultant. I would like to continue developing my career in the technical realm and expand the set of tools and technologies I can apply to solve problems. My long-term goal is to become an integration architect, with a strong focus on cloud environments. I am also interested in data science and complex process automation.
+
+---
 
 ## Experience
-### Integration Consultant @ [Avvale](https://www.avvale.com) (2023 to date)
-* **Projects:**
-  * Automation of complex functional processes and integration with S/4HANA and external solutions (Santos, Werfen).
-  * Migration of custom and standard processes to Cloud Foundry (Affinity).
-  * Implementation of Cloud ALM and development of integrations tailored to business requirements (Zelestra).
-* **Training & consultancy:** delivery of integration training (theory and exercises) to both clients and colleagues.
-* **Advisory & collaboration:** translation of technical needs into accessible language; collaboration with functional and cross-functional teams.
+
+### SAP Integration Consultant
+*Avvale Spain | 2023 - present*
+
+- Automation of complex functional processes.
+- Development of integrations between SAP and non-SAP solutions, ensuring end-to-end communication.
+- Migration of custom and standard processes from legacy systems to cloud-based solutions.
+- Aligning existing systems with best practices.
+- Implementation of Cloud ALM and monitoring processes.
+- Development of integrations tailored to business requirements.
+
+---
+
+## Technical skills
+
+#### SAP Ecosystem
+- Deep knowledge of SAP Integration Suite: Cloud Integration, API Manager.
+- Use of adjacent tools: SAP Cloud ALM, S/4HANA Cloud.
+
+#### General Integration Knowledge
+- Message mapping (XML vía XSD/WSDL, JSON...).
+- Authentication methods (CSRF, JWT, OAuth, API Key...).
+- API testing through Postman/Bruno/SoapUI...
+- Best practices, resilient and maintainable integration patterns.
+
+#### APIs
+- REST & SOAP API Development.
+- Extensive OData (V2, V4) API experience.
+- Basic knowledge of GraphQL APIs.
+
+#### Scripting & programming
+- R & Shiny
+- Groovy, Java, XSLT
+- Python, Mathematica
+- Bash (macOS, Linux)
+
+#### Security & cryptography
+- Knowledge of public-key cryptography.
+
+---
+
+## Certifications
+
+- **Integration:** SAP Certified Associate - Integration Developer
+  - *July 2025*
+
+---
 
 ## Education
 
-* Bachelor’s Degree in Physics (2016–2023), University of Granada.  
-  * Focus on computational physics, simulation, and data analysis.  
-  * Bachelor’s thesis: *Photon absorption in a periodic lattice of quantum dots*.
-* Bachelor’s Degree in Chemistry (2013–2016), University of Jaén.  
-  * Awarded for highest entrance GPA in the province.  
-  * Transferred to Physics in 2016.
-* Secondary Education – Scientific Path (2011–2013), Las Fuentezuelas, Jaén.  
-  * Honours: top five students, class of 2013.
+### Bachelor's Degree in Physics
+*University of Granada | 2016 - 2023*
 
-## Technical Skills
+Interest in computational physics, simulation, and data analysis.  
+**Bachelor's thesis:** "Photon absorption in a periodic lattice of quantum dots."
 
-* **SAP Ecosystem:**  
-  * SAP Integration Suite (Cloud Integration, API Management), S/4HANA Cloud, SAP Cloud ALM.
-* **General Integration Knowledge:**  
-  * Message mapping (XML via XSD/WSDL, JSON via Groovy, etc.)  
-  * Authentication methods (CSRF, JWT, OAuth, API Key).  
-  * API testing through Postman, Bruno, SoapUI.  
-  * Best practices and resilient, maintainable integration patterns.
-* **APIs:**  
-  * REST & SOAP API development.  
-  * Extensive experience with OData (V2, V4).  
-  * Basic knowledge of GraphQL.  
-  * Use of SAP environment tools: BAPIs, CDS views, CBOs.
-* **Scripting & Programming:**  
-  * R & Shiny.
-  * Groovy, Java.
-  * Python, Mathematica.  
-  * Bash (macOS, Linux).
-* **Security & Cryptography:**  
-  * Operational knowledge of public-key cryptography.
-* **Other tools & experience:**  
-  * Data science (parsing, cleaning, exploration, and visualization in R).  
-  * Technical translation (EN-ES, ES-EN).  
-  * Operational knowledge of LaTeX.  
-  * Some knowledge of HTML, CSS & JavaScript.
+### Bachelor's Degree in Chemistry
+*University of Jaén | 2013 - 2016*
 
-## Soft Skills
-
-* **Efficiency & Results-Oriented:**  
-  Lead integrator in projects involving the automation of complex functional processes, achieving high customer satisfaction.
-* **Collaboration:**  
-  Skilled at fostering a collaborative environment and working toward shared goals with cross-functional teams.
-* **Advisory Skills:**  
-  Able to translate technical requirements into accessible language for functional and client-facing roles.
-* **Training:**  
-  Experienced in delivering integration training (theory and exercises) to both clients and colleagues.
+- Awarded for highest entrance GPA in the province.
+- Transferred to a different degree program in 2016.
+  
+---
 
 ## Languages
 
-* 🇪🇸 Spanish. Native language.  
-* 🇬🇧 English. Certificate of Proficiency in English (CPE), University of Cambridge.  
-  * Grade B: 219/230. November 2018.  
-* 🇷🇺 Russian. Certificate in Russian Language and Culture (B1), University of Granada.  
-  * June 2021.
+- **Spanish:** Native
+- **English:** C2 - Certificate of Proficiency in English (CPE)
+  - *University of Cambridge, Grade B: 219/230, November 2018*
+- **Russian:** B1 - Certificate in Russian Language and Culture
+  - *University of Granada, June 2021*
+
+---
+
+## Soft skills
+
+- **Efficiency and Results-Oriented:** I have been the lead integrator in projects involving the automation of complex functional processes, achieving high customer satisfaction.
+- **Collaboration:** Able to foster a collaborative environment and get along well with colleagues. Skilled at setting shared goals with cross-functional teams.
+- **Advisory Skills:** I am good at translating technical requirements and problems into accessible language for functional team members and client-facing roles.
+- **Training:** I have delivered integration training (theory and exercises) to both clients and colleagues.
+
