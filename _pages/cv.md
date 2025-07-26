@@ -36,28 +36,28 @@ I currently work as an integration consultant. I would like to continue developi
 
 ## Technical skills
 
-#### SAP Ecosystem
+### SAP Ecosystem
 - Deep knowledge of SAP Integration Suite: Cloud Integration, API Manager.
 - Use of adjacent tools: SAP Cloud ALM, S/4HANA Cloud.
 
-#### General Integration Knowledge
+### General Integration Knowledge
 - Message mapping (XML vía XSD/WSDL, JSON...).
 - Authentication methods (CSRF, JWT, OAuth, API Key...).
 - API testing through Postman/Bruno/SoapUI...
 - Best practices, resilient and maintainable integration patterns.
 
-#### APIs
+### APIs
 - REST & SOAP API Development.
 - Extensive OData (V2, V4) API experience.
 - Basic knowledge of GraphQL APIs.
 
-#### Scripting & programming
+### Scripting & programming
 - R & Shiny
 - Groovy, Java, XSLT
 - Python, Mathematica
 - Bash (macOS, Linux)
 
-#### Security & cryptography
+### Security & cryptography
 - Knowledge of public-key cryptography.
 
 ---
