@@ -1,5 +1,5 @@
 ---
-title: "Integration Suite Explorer: mapping your integration landscape automatically"
+title: "Automatic AS-IS reports in SAP Integration Suite."
 date: 2025-10-17
 permalink: /posts/2025/10/integration-suite-explorer/
 tags:
@@ -11,9 +11,9 @@ tags:
   - streamlit
 ---
 
-When you work with SAP Integration Suite, you quickly realize that the hard part isn’t always building new interfaces. It’s understanding what’s already there. Over time, integration packages pile up, and nobody really knows what connects to what, which adapters are in use, or where those HTTP calls actually point to.  
+When you work with SAP Integration Suite, you quickly realize that the hard part isn’t always building new interfaces. It’s understanding what’s already there. Over time, integration packages pile up, documentation gets stale, and nobody really knows the real, up-to-date state of the integration landscape.
 
-I wanted a way to explore an existing landscape quickly, to generate a simple "as-is" report without manually opening each IFlow. That’s how this little tool came to exist.
+I wanted a way to explore an existing landscape quickly, to generate a simple "as-is" report without manually opening each IFlow, which is a tedious, repetitive task. That’s how this little tool came to exist.
 
 ![Screenshot](https://raw.githubusercontent.com/malmriv/malmriv.github.io/refs/heads/master/images/integration-suite-explorer-demo.png?raw=true)
 
