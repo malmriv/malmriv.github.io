@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-My updated CV can be found here both in [English]({{site.url}}/files/CV-eng.pdf) and [Spanish]({{site.url}}/files/CV-esp.pdf). (Last update: 26th July 2025).
+My updated CV can be found here both in [English]({{site.url}}/files/CV-eng.pdf) and [Spanish]({{site.url}}/files/CV-esp.pdf). (Last update: 5th February 2026).
 
 ---
 
