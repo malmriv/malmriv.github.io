@@ -16,12 +16,7 @@ My updated CV can be found here both in [English]({{site.url}}/files/CV-eng.pdf)
 
 ## Presentation & objectives
 
-I am currently a senior integration consultant @ Avvale Spain. I would like to continue developing my career in the technical realm and expand the set of tools and technologies I can apply to solve problems. My long-term goal is to become an integration architect, with a strong focus on cloud environments. I am also interested in data science and complex process automation.
-
----
-## Presentation & objectives
-
-I currently work as an integration consultant. I want to continue developing my career on the technical side and broaden the set of tools and technologies I use to solve complex problems. My long-term goal is to become an integration architect, with a strong focus on cloud environments. I am also interested in data science and complex process automation.
+I currently work as a senior integration consultant @ Avvale Spain. I would like to continue developing my career in the technical realm and expand the set of tools and technologies I can apply to solve problems. My long-term goal is to become an integration architect, with a strong focus on cloud environments. I am also interested in data science and complex process automation.
 
 ---
 
