@@ -10,116 +10,103 @@ redirect_from:
 
 {% include base_path %}
 
-My updated CV can be found here both in [English]({{site.url}}/files/CV-eng.pdf) and [Spanish]({{site.url}}/files/CV-esp.pdf). (Last update: 5th February 2026).
+My updated CV can be found here both in [English]({{site.url}}/files/CV-eng.pdf) and [Spanish]({{site.url}}/files/CV-esp.pdf). (Last update: March 26th, 2026).
 
 ---
 
-## Presentation & objectives
+## Profile
 
-I currently work as a senior integration consultant @ Avvale Spain. I would like to continue developing my career in the technical realm and expand the set of tools and technologies I can apply to solve problems. My long-term goal is to become an integration architect, with a strong focus on cloud environments. I am also interested in data science and complex process automation.
+Integration consultant with hands-on experience designing, building, and operating cloud integration solutions. Specialised in SAP Integration Suite, BTP and S/4HANA Cloud, with a strong foundation in API design, messaging protocols, and resilient integration patterns. Delivered core integrations running in production with near-zero downtime and exceptions over extended periods. Able to work in international environments with English as the primary language. Long-term goal of growing into an integration architect role.
 
 ---
 
 ## Experience
 
-### SAP Integration Consultant  
-*Avvale Spain | 2023 – present*
+**SAP Integration Consultant** — Avvale Spain
+*2023 - present*
 
-- Development of integration solutions tailored to functional, business, and scalability requirements.
-- Automation of complex functional processes.
-- Migration of custom and standard processes from legacy systems to cloud-based solutions.
-- Alignment of existing systems with best practices, including documentation and standardization.
-- Implementation of monitoring and alerting processes across S/4HANA, Master Data Integration, Cloud ALM, and Integration Suite.
-- Incident resolution under work methodologies with defined service-level agreements.
-- Preparation of time estimates, technical designs, and project documentation.
-- Training of clients and colleagues on best practices, logging and monitoring mechanisms, alerting, housekeeping, and transport management across environments.
-
-**Project and technology scope**
-- Mediated and direct integration of SAP solutions: ECC, S/4HANA Cloud (public edition), SuccessFactors, Cloud for Customer, Customer Data Cloud, Ariba, Concur, Emarsys, Master Data Integration, Cloud ALM.
-- Integration with third-party systems via standard protocols (SOAP, REST, OData) and custom implementations.
-- Connectivity to on-premise systems via SAP Cloud Connector.
-- Integration with cloud and on-prem databases: SAP HANA, Microsoft SQL Server, MariaDB.
+- Designed and delivered end-to-end integration solutions tailored to functional, business, and scalability requirements; core custom integrations have run in production with near-zero downtime and exceptions for 6+ months.
+- Led automation of complex business processes, reducing manual effort and improving operational reliability for clients.
+- Migrated custom and standard integration processes from on-premise legacy systems to SAP BTP cloud solutions, ensuring continuity and improved maintainability.
+- Reviewed and aligned existing integration landscapes with industry best practices, including end-to-end documentation and standardisation across environments.
+- Set up end-to-end monitoring and alerting across S/4HANA, Master Data Integration, Cloud ALM, and Integration Suite, reducing mean time to detection of integration failures.
+- Delivered integration training sessions (theory and hands-on exercises) to clients and colleagues on best practices, monitoring, alerting, housekeeping, and transport management.
+- Resolved integration incidents within defined SLAs in fast-paced consulting environments, maintaining service continuity for production systems.
+- Produced technical designs, effort estimates, and project documentation to support delivery teams and client stakeholders.
 
 ---
 
-## Technical skills
+## Technical Skills
 
-### SAP ecosystem
-- Deep knowledge of SAP Integration Suite: Cloud Integration, API Manager, Event Mesh, Log Viewer.
-- Use of adjacent tools: SAP Cloud ALM, S/4HANA Cloud.
+**General integration knowledge**
+- Message mapping (XML via XSD/WSDL, JSON, EDI...) & handling of common message formats (CSV, YAML)
+- Authentication methods: Basic, OAuth 2.0, client certificate-based, JWT, API Key, CSRF...
+- API testing and debugging (REST, SOAP, OData)
+- Best practices, resilient and maintainable integration patterns
 
-### General integration knowledge
-- Message mapping (XML via XSD/WSDL, JSON).
-- Authentication and authorization mechanisms (CSRF, JWT, OAuth, API key).
-- API testing with Postman, Bruno, and SoapUI.
-- Design of resilient and maintainable integration patterns and best practices.
+**APIs**
+- REST & SOAP API development
+- Extensive OData (V2, V4) API experience
+- GraphQL API knowledge
+- SAP environment tools: BAPIs, CDS views, CBOs
 
-### APIs
-- REST and SOAP API development.
-- Extensive experience with OData APIs (V2 and V4).
-- Basic knowledge of GraphQL APIs.
-- SAP environment tools: BAPIs, CDS views, custom business objects.
+**Scripting & programming**
+- Development and scripting in Groovy and Java (both base & in the Spring Boot framework)
+- Also used frequently in the past: Python, R, C++, Fortran, Mathematica, Lua
+- Bash scripting in UNIX-like environments (macOS, Linux)
 
-### Scripting and programming
-- Development and scripting in Groovy and Java (Maven), including XSLT.
-- Operational knowledge of Python, R, and C++.
-- Bash scripting in macOS and Linux environments.
+**Platform & infrastructure**
+- Management and administration of DNS, domains, reverse proxies and hosting services
+- Basic system administration tasks in Linux
+- Administration and maintenance of FTP/SFTP services
+- Issuance, renewal, and automation of SSL/TLS certificates
+- Operational management of databases
+- Use of Docker for the creation, deployment, and basic management of containers
+- Operational knowledge of public key cryptography (PKI): certificates, keystores, hash algorithms, sign requests, trust chains...
 
-### Platform and infrastructure
-- Management and administration of DNS, domains, reverse proxies, and hosting services.
-- Basic system administration tasks in Linux environments.
-- Administration and maintenance of FTP and SFTP services.
-- Issuance, renewal, and automation of SSL/TLS certificates using acme.sh.
-- Operational knowledge of NAT, including DNAT and CGNAT.
-- Operational management of databases.
-- Use of Docker for container creation, deployment, and basic management.
-- Operational knowledge of public key cryptography, including certificates, keys, and trust chains.
+---
+
+## Technologies
+
+**SAP Integration**
+- SAP Integration Suite: Cloud Integration, API Manager, Event Mesh, Log Viewer
+- SAP BTP, Cloud ALM, SAP Cloud Connector
+- S/4HANA Cloud (Public Edition), ECC, SuccessFactors, Cloud for Customer, Customer Data Cloud, Ariba, Concur, Emarsys, Master Data Integration
+
+**Databases & tools**
+- Microsoft SQL Server, HANA, MariaDB
+- Postman, Bruno, SoapUI
+- Docker
 
 ---
 
 ## Education
 
-### Bachelor’s Degree in Physics  
-*University of Granada | 2016 – 2023*
+**Bachelor's Degree in Physics** — University of Granada, 2016–2023
+Interest in computational physics, simulation, and data analysis. Bachelor's thesis: *"Photon absorption in a periodic lattice of quantum dots."*
 
-Interest in computational physics, simulation, and data analysis.  
-Bachelor’s thesis: *Photon absorption in a periodic lattice of quantum dots.*
+**Bachelor's Degree in Chemistry** — University of Jaén, 2013–2016
+Awarded for highest entrance GPA in the province. Transferred to a different degree program in 2016.
 
-### Bachelor’s Degree in Chemistry  
-*University of Jaén | 2013 – 2016*
+---
 
-- Awarded for highest entrance GPA in the province.
-- Transferred to a different degree program in 2016.
+## Soft Skills
+
+- **Efficiency and results-oriented:** Lead integrator on complex automation projects with high client satisfaction.
+- **Collaboration:** Effective in cross-functional teams; skilled at setting shared goals and fostering collaborative environments.
+- **Advisory skills:** Translates technical complexity into accessible language for functional and client-facing stakeholders.
+- **Training:** Delivered integration training (theory and exercises) to clients and colleagues.
 
 ---
 
 ## Languages
 
 - **Spanish:** Native
-- **English:** C2 – Certificate of Proficiency in English (CPE), University of Cambridge  
-  Grade B (219/230), November 2018
-- **Russian:** B1 – Certificate in Russian Language and Culture, University of Granada  
-  June 2021
+- **English:** C2 — Certificate of Proficiency in English (CPE), University of Cambridge. Grade B: 219/230, November 2018.
+- **Russian:** B1 — Certificate in Russian Language and Culture, University of Granada, June 2021.
 
 ---
 
 ## Certifications
 
-- **SAP Certified Associate – Integration Developer**  
-  July 2025
-
----
-
-## Soft skills
-
-### Efficiency and results-oriented
-Lead integrator in projects involving the automation of complex functional processes, achieving high customer satisfaction.
-
-### Collaboration
-Able to foster a collaborative environment and work effectively with cross-functional teams, setting shared goals and responsibilities.
-
-### Advisory skills
-Strong ability to translate technical requirements and problems into accessible language for functional teams and client-facing roles.
-
-### Training
-Experience delivering integration training, including theory and hands-on exercises, to both clients and colleagues.
+**Integration:** SAP Certified Associate - Integration Developer, July 2025.
