@@ -208,7 +208,12 @@ This brings a typical event from around 6KB down to under 700 bytes. The script 
 
 ## What you get
 
-Once everything is running, any change to the `ingredientes` table produces an event within milliseconds. Using the slim forwarder, an insert arrives at the queue in milliseconds looking like this:
+Once everything is running, any change to the `ingredientes` table produces an event within milliseconds. The events are discoverable both on the backend (through Kafka's browser UI which we installed) and on SAP Integration Suite. As an example, in the following screenshot a few changes to the database (left side) are viewed in live mode in Kafka's UI (right side):
+
+![Screenshot showing both the database being modified (right) and Kafka in live mode with events being passed.](https://github.com/malmriv/malmriv.github.io/blob/master/_posts/images/database-and-kafka.png?raw=true)
+
+
+Using the our Python forwarder, an insert arrives at the actual queue in SAP Event Mesh in milliseconds, looking like this:
 
 ```json
 {
