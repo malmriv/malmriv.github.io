@@ -204,7 +204,7 @@ def slim(raw_bytes: bytes) -> bytes:
     }, ensure_ascii=False).encode()
 ```
 
-This brings a typical event from around 6KB down to under 700 bytes. The script also handles token refresh automatically and skips tombstone messages, the null-value records that Debezium writes when a row is deleted and the topic is compacted.
+This brings a typical event from around 6KB down to under 700 bytes.
 
 ## What you get
 
