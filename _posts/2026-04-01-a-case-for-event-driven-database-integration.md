@@ -30,7 +30,7 @@ The goal of this post is to **build an intuitive understanding of how a polling-
 
 Two Docker Compose projects make up the whole thing.
 
-The first one is **MariaDB**. The installation is very typical: a single container with a the database, a user and a password. The important bit is the volume mapping, since LinuxServer uses `/config` as its data root, not the usual `/var/lib/mysql` that appears (in)[https://github.com/docker/awesome-compose/tree/master/official-documentation-samples/wordpress/] (most)[https://a-chacon.com/docker/2023/07/07/docker-compose-mariadb-phpmyadmin.html] (examples)[https://github.com/studiomitte/docker-compose-mariadb/blob/main/docker-compose.yml]. (Yes, those are three different links; this was a proper pain to figure out). This matters when you need to override configuration, as we will see shortly.
+The first one is **MariaDB**. The installation is very typical: a single container with a the database, a user and a password. The important bit is the volume mapping, since LinuxServer uses `/config` as its data root, not the usual `/var/lib/mysql` that appears [in](https://github.com/docker/awesome-compose/tree/master/official-documentation-samples/wordpress/) [most](https://a-chacon.com/docker/2023/07/07/docker-compose-mariadb-phpmyadmin.html) [examples](https://github.com/studiomitte/docker-compose-mariadb/blob/main/docker-compose.yml). (Yes, those are three different links; this was a proper pain to figure out). This matters when you need to override configuration, as we will see shortly.
 
 ```yaml
 services:
