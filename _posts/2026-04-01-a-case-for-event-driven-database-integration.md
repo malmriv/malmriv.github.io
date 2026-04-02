@@ -108,7 +108,7 @@ The `KAFKA_HEAP_OPTS` setting deserves a mention. The default value in the Confl
 
 ## Preparing the database
 
-CDC tools like Debezium do not poll the database. Instead, they read the database engine's internal transaction log: the sequential, ordered record of every change committed to disk. In MariaDB this is called the binary log (binlog). PostgreSQL has the WAL (Write-Ahead Log), Oracle has redo logs, SQL Server has its own CDC mechanism. The names and configuration differ, but the principle is the same.
+CDC tools like Debezium do not poll the database. Instead, they read the database engine's internal transaction log: the sequential, ordered record of every change committed to disk. In MariaDB this is called the [binary log](https://mariadb.com/docs/server/server-management/server-monitoring-logs/binary-log/overview-of-the-binary-log) (binlog). PostgreSQL has the [Write-Ahead Log](https://www.postgresql.org/docs/current/wal-intro.html) (WAL), Oracle has [redo logs](https://docs.oracle.com/html/E25494_01/onlineredo001.htm), Microsoft SQL Server has [its own CDC mechanism](https://learn.microsoft.com/en-us/sql/relational-databases/track-changes/about-change-data-capture-sql-server?view=sql-server-ver17). The names and configuration differ, but the principle is roughly the same.
 
 For Debezium to read it, the log must be enabled and configured to record the full before and after state of each changed row (rather than just the SQL statement that caused the change). The [MariaDB documentation on the binary log](https://mariadb.com/kb/en/binary-log/) covers all the relevant options. The database user Debezium connects with also needs replication-related privileges and the ability to lock tables for the initial snapshot.
 
