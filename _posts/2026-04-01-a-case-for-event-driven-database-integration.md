@@ -30,7 +30,7 @@ The goal of this post is to **build an intuitive understanding of how a polling-
 
 Two Docker Compose projects make up the whole thing.
 
-The first one is **MariaDB**, using the LinuxServer image. There is nothing special here: a single container with a database, a user, and a password. The important bit is the volume mapping, since LinuxServer uses `/config` as its data root, not the usual `/var/lib/mysql`. This matters when you need to override configuration, as we will see shortly.
+The first one is **MariaDB**. The installation is very typical: a single container with a the database, a user and a password. The important bit is the volume mapping, since LinuxServer uses `/config` as its data root, not the usual `/var/lib/mysql` that appears (in)[https://github.com/docker/awesome-compose/tree/master/official-documentation-samples/wordpress/] (most)[https://a-chacon.com/docker/2023/07/07/docker-compose-mariadb-phpmyadmin.html] (examples)[https://github.com/studiomitte/docker-compose-mariadb/blob/main/docker-compose.yml]. (Yes, those are three different links; this was a proper pain to figure out). This matters when you need to override configuration, as we will see shortly.
 
 ```yaml
 services:
@@ -100,7 +100,7 @@ networks:
 
 The `KAFKA_HEAP_OPTS` setting deserves a mention. The default value in the Confluent image is 128MB, which is not enough for Kafka's log cleaner to initialise on startup, throwing an `OutOfMemoryError` before the broker is ready. 512MB is a reasonable floor for local development.
 
-In the end, most of the setup runs on containers... which is always a good thing.
+(My poor NAS was struggling to deploy this with its two-whole-gigabytes of RAM, and I had to switch to my laptop, luckily with minimal interference. This is the magic of containers).
 
 ![Docker project](https://github.com/malmriv/malmriv.github.io/blob/master/_posts/images/docker_kafa_compose.png?raw=true)
 
@@ -183,9 +183,9 @@ There are two ways to bridge the gap between Kafka and Event Mesh.
 
 ### Kafka Connect HTTP Sink
 
-Kafka Connect supports sink connectors that read from a topic and post to an HTTP endpoint. The [Aiven HTTP Connector](https://github.com/Aiven-Open/http-connector-for-apache-kafka) is, as far as I've come to understand this, the standard choice for this. (Do not quote me on this, as this is still new to me and there might be better solutions out there that I simply do not know). You drop the JAR into the Debezium container's plugin path, register the connector through the REST API, and it handles OAuth2, retries, and offset management automatically. Full configuration details are[in the Aiven documentation](https://aiven.io/docs/products/kafka/kafka-connect/howto/http-sink).
+Kafka Connect supports sink connectors that read from a topic and post to an HTTP endpoint. The [Aiven HTTP Connector](https://github.com/Aiven-Open/http-connector-for-apache-kafka) is, as far as I've come to understand this, the standard choice for this. (Do not quote me on this, as this is still new to me and there might be better solutions out there that I simply do not know). You drop the .jar into the Debezium container's plugin path and then register the connector through the REST API. Full configuration details are[in the Aiven documentation](https://aiven.io/docs/products/kafka/kafka-connect/howto/http-sink).
 
-The caveat is message size. Debezium includes a complete `schema` section in every event, describing every field, its type, and its constraints. This envelope can push a single event past 5KB on a table with a modest number of columns. That schema metadata is repeated on every single message. **For SAP Integration Suite, which expects concise business messages, this creates noise that has to be stripped somewhere downstream**.
+The caveat is message size. Debezium includes a complete `schema` section **in every event**, which does not make a lot of sense to me. This envelope can push a single event past 5KB on a table with a modest number of columns. **For SAP Integration Suite, which expects concise business messages, this creates noise that has to be stripped somewhere downstream**.
 
 ### Python forwarder with a slim transform
 
@@ -263,7 +263,7 @@ Using the our Python forwarder, an insert arrives at the actual queue in SAP Eve
 }
 ```
 
-An update includes both the `before` and `after` states, which means downstream consumers can react not just to what the new value is, but to what it changed from. A price increase, a stock level dropping below the minimum, an expiry date being corrected: all of these become distinct, timestamped, ordered events. No polling, no batch windows, no guessing what changed between runs.
+An update includes both the `before` and `after` states, which means downstream consumers can have the whole picture of the changes performed on a given row. (An example of how this might be used: a very short Groovy script in SAP CPI would allow us to compare the `before` and `after` nodes, leaving us the ability to decide whether a certain change is functionally relevant and whether it should be propagated or not). A price increase, a stock level dropping below the minimum, an expiry date being corrected: all of these become distinct, timestamped events. This removes the necessity for polling and for keeping track of when the last replication was.
 
 The whole process is remarkably quick. The event appears in SAP Event Mesh almost instantly:
 
