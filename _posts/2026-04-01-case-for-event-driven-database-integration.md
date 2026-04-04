@@ -2,6 +2,8 @@
 title: "Stop asking, start listening: a case for event-driven database integration"
 date: 2026-04-01
 permalink: /posts/2026/04/case-for-event-driven-database-integration/
+redirect_from:
+  - /posts/2026/04/a-case-for-event-driven-database-integration/
 tags:
   - CDC
   - Kafka
