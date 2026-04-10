@@ -16,7 +16,7 @@ My updated CV can be found here both in [English]({{site.url}}/files/CV-eng.pdf)
 
 ## Profile
 
-Integration consultant with hands-on experience designing, building, and operating cloud integration solutions. Specialised in SAP Integration Suite, BTP and S/4HANA Cloud, with a strong foundation in API design, messaging protocols, and resilient integration patterns. Delivered core integrations running in production with near-zero downtime and exceptions over extended periods. Able to work in international environments with English as the primary language. Long-term goal of growing into an integration architect role.
+Integration consultant with hands-on experience designing, building, and operating cloud integration solutions. Specialised in SAP Integration Suite, BTP and S/4HANA Cloud, with experience in API design, messaging protocols, and fault-tolerant integration patterns. Delivered core integrations running in production with near-zero downtime and exceptions over extended periods. Able to work in international environments with English as the primary language. My long-term goal is to grow into an integration architecture role.
 
 ---
 
