@@ -42,7 +42,7 @@ Any content modifier later in the flow can then read from it by key:
 
 ![A content modifier reads the property as a map](https://github.com/malmriv/malmriv.github.io/blob/master/_posts/images/reading-property-plants.png)
 
-And the result is exactly what you'd get by using a JSON, re-parsing the content and choosing the relevant key dynamically (but we avoided all of that):
+And the result is exactly what you'd get by adding a script, re-parsing the content and choosing the relevant key dynamically (but we avoided all of that):
 
 ![Same result as using a Groovy script to parse a JSON!](https://raw.githubusercontent.com/malmriv/malmriv.github.io/refs/heads/master/_posts/images/output-property-plants.png)
 
