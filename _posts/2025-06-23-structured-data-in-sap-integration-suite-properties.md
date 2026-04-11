@@ -40,7 +40,7 @@ def Message processData(Message message) {
 
 Any content modifier later in the flow can then read from it by key:
 
-![A content modifier reads the property as a map](https://github.com/malmriv/malmriv.github.io/blob/master/_posts/images/reading-property-plants.png)
+![A content modifier reads the property as a map](https://github.com/malmriv/malmriv.github.io/blob/master/_posts/images/reading-property-plants.png?raw=true)
 
 And the result is exactly what you'd get by adding a script, re-parsing the content and choosing the relevant key dynamically (but we avoided all of that):
 
