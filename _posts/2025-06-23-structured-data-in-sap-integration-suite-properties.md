@@ -17,7 +17,7 @@ Suppose the input is a JSON document with information about plants:
 ![Sample JSON message with info about plants](https://raw.githubusercontent.com/malmriv/malmriv.github.io/refs/heads/master/_posts/images/plantas-json.png)
 
 
-A single Groovy script at the start of the flow parses the message, does some filtering (e.g.: filters the non-toxic plants) and stores the result as a map that tells is the watering frequency of each plant:
+A single Groovy script at the start of the flow parses the message, does some filtering (e.g.: filters the non-toxic plants) and stores the result as a map that links each plant to its watering frequency:
 
 ```groovy
 import com.sap.gateway.ip.core.customdev.util.Message
