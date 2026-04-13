@@ -80,4 +80,4 @@ The UI is a [Streamlit](https://streamlit.io) app. I have used the Python + Stre
 
 ## Try it
 
-The tool is deployed on [Streamlit Community Cloud](). The source is on [GitHub](https://github.com/malmriv/soap-blueprint). If you work with SOAP services in SAP (or anywhere else, really), give it a try. If the generated WSDL does not work with your system, I would genuinely like to know, along with any trace that allows me to find out why.
+The tool is deployed on [Streamlit Community Cloud](https://soapblueprint.streamlit.app). The source is on [GitHub](https://github.com/malmriv/soapblueprint). If you work with SOAP services in SAP (or anywhere else, really), give it a try. If the generated WSDL does not work with your system, I would genuinely like to know, along with any trace that allows me to find out why.
