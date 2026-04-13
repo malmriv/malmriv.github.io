@@ -23,7 +23,7 @@ I ran into this problem often enough that I built a small tool to solve it a whi
 
 ## What it does
 
-SOAP Blueprint is a web app where you define the fields of your SOAP service (request and response, with names, types, cardinality, and as many levels of nesting as you need), and it generates a WSDL that is ready to use. The WSDL structure is not something I invented: it comes from a real file that was deployed and validated in production against SAP Integration Suite. The same structure has also been tested with SAP ECC, S/4HANA, and (with the help of some colleagues) MuleSoft.
+SOAP Blueprint is a web app where you define the fields of your SOAP service (request and response, with names, types, cardinality, and as many levels of nesting as you need), and it generates a WSDL that is ready to use. The resulting WSDL structure is not something I decided: the template has been validated and tested thoroughly with SAP S/4HANA, ECC, Integration Suite and (with the help of some colleagues) MuleSoft.
 
 Beyond the WSDL itself, the tool generates a few other things that I kept wishing I had in previous projects:
 
