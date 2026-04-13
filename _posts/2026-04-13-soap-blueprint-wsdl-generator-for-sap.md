@@ -44,13 +44,13 @@ Field types are drawn from the [W3C XSD built-in datatypes](https://www.w3.org/T
 
 ## What was wrong with the old version
 
-The [previous tool](https://github.com/malmriv/WSDLGen) was written in R using [Shiny](https://shiny.posit.co). It worked for simple cases, but had two problems that made it increasingly painful to use and impossible to maintain:
+The [previous tool](https://malmriv.shinyapps.io/WSDLGenerator/) was written in R using [Shiny](https://shiny.posit.co). It worked for simple cases, but had two problems that made it increasingly painful to use and impossible to maintain:
 
 1. It only supported one level of nesting. A field could have children, but those children could not have children of their own. This sounds like a minor limitation until someone needs an order with line items where each line item has a breakdown of taxes and discounts. That is three levels deep, and it is not unusual to go further. The reason for the limitation was not conceptual (XSD obviously allows arbitrary nesting) but practical: the way I had implemented the tree editing in Shiny made it very hard to generalise beyond one depth. Shiny's reactive model re-evaluates dependencies whenever state changes, and managing a recursive data structure inside that turned into a nightmare of circular updates and broken widget IDs.
 
 2. The code was a single monolithic file. UI callbacks and XML string concatenation lived side by side. There were no tests, no separation of concerns, and no way to change one thing without risking everything else. I tried to fix the nesting problem a few times and gave up each session because understanding the code required loading the entire file into my head. As often happens with Shiny apps (or at least with *my* Shiny apps), what started as a quick personal project ended up being used by colleagues, and by that point refactoring without a testing environment felt like a bad game of [Jenga](https://en.wikipedia.org/wiki/Jenga).
 
-So I have spent a few weeks rebuilding it using [an approach that has worked well for me](https://github.com/malmriv/integration-suite-explorer) in the past. I shamelessly declare myself a [Streamlit](https://streamlit.io) enjoyer.
+So I have spent a few weeks rebuilding it using [an approach that has worked well for me](https://github.com/malmriv/integration-suite-explorer) in the past. Even though Shiny and I [go back quite some time](https://blog.almag.ro/posts/2022/06/paula/), I feel like Streamlit has completely taken the first place by now.
 
 ## How it works now
 
