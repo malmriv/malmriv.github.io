@@ -32,7 +32,7 @@ Beyond the WSDL itself, the tool generates a few other things that I kept wishin
 
 ![Options available after describing the desired structure](https://github.com/malmriv/malmriv.github.io/blob/master/_posts/images/soapblueprint-options.png?raw=true)
 
-- A Postman collection, ready to import. This one deserves a bit of context. Postman is notoriously bad at converting WSDLs into working collections. It tends to set the Content-Type to `application/xml` (which is not always accepted), and the generated requests often lack the SOAP Envelope or get the namespace wrong. The collection that SOAP Blueprint generates comes with the correct POST method, `text/xml` as Content-Type, the full Envelope in the body, and a `{{SOAPServiceURL}}` variable so you just need to fill in the endpoint.
+- A Postman collection, ready to import. This one deserves a bit of context. Postman is notoriously bad at converting WSDLs into working collections. It tends to set the Content-Type to `application/xml` (which is not always accepted), and the generated requests often lack the SOAP Envelope or get the namespace wrong. The collection that SOAP Blueprint generates comes with the correct POST method, `text/xml` as Content-Type and the full Envelope in the body. You only need to set up the URL of the exposed service and an authentication.
 
 ![Postman takes the generated collections with no issue :)](https://github.com/malmriv/malmriv.github.io/blob/master/_posts/images/soapblueprint-postman.png?raw=true)
 
