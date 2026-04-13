@@ -17,7 +17,7 @@ If you have ever had to write a WSDL file by hand, you know that the experience 
 
 (By the way, sorry for the movie title [reference](https://www.imdb.com/title/tt0057012/): I've been revisiting Kubrick lately).
 
-I ran into this problem often enough that I built a small tool to solve it a while ago. It worked, but it had some serious limitations that eventually caught up with me. So I rewrote it from scratch. The result is [SOAP Blueprint]([https://github.com/malmriv/soap-blueprint](https://soapblueprint.streamlit.app), and I think it turned out rather well. See [GitHub repo](https://github.com/malmriv/soapblueprint) for more details.
+I ran into this problem often enough that I built a small tool to solve it a while ago. It worked, but it had some serious limitations that eventually caught up with me. So I rewrote it from scratch. The result is [SOAP Blueprint](https://soapblueprint.streamlit.app), and I think it turned out rather well. See [GitHub repo](https://github.com/malmriv/soapblueprint) for more details.
 
 ![A view of SOAP Blueprint](https://github.com/malmriv/malmriv.github.io/blob/master/_posts/images/soapblueprint-view-tool.png?raw=true)
 
