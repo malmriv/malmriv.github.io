@@ -44,7 +44,7 @@ Field types are drawn from the [W3C XSD built-in datatypes](https://www.w3.org/T
 
 ## What was wrong with the old version
 
-The [previous tool](https://malmriv.shinyapps.io/WSDLGenerator/) was written in R using [Shiny](https://shiny.posit.co). It worked for simple cases, but had two problems that made it increasingly painful to use and impossible to maintain:
+The previous app was written in R using [Shiny](https://shiny.posit.co). It worked for simple cases, but had two problems that made it increasingly painful to use and impossible to maintain:
 
 1. It only supported one level of nesting. A field could have children, but those children could not have children of their own. This sounds like a minor limitation until someone needs an order with line items where each line item has a breakdown of taxes and discounts. That is three levels deep, and it is not unusual to go further. The reason for the limitation was not conceptual (XSD obviously allows arbitrary nesting) but practical: the way I had implemented the tree editing in Shiny made it very hard to generalise beyond one depth. Shiny's reactive model re-evaluates dependencies whenever state changes, and managing a recursive data structure inside that turned into a nightmare of circular updates and broken widget IDs.
 
