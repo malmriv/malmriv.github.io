@@ -1,10 +1,10 @@
 ---
 layout: archive
 title: "Integration workbench"
-permalink: /tools
+permalink: /tools/
 author_profile: true
 redirect_from:
-  - /tools/
+  - /tools
   - /tools.html
 ---
 
