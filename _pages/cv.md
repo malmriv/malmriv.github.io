@@ -10,7 +10,7 @@ redirect_from:
 
 {% include base_path %}
 
-My updated CV can be found here both in [English]({{site.url}}/files/CV-eng.pdf) and [Spanish]({{site.url}}/files/CV-esp.pdf). (Last update: March 26th, 2026).
+My updated CV can be found [here]({{site.url}}/files/CV.pdf).
 
 ---
 
@@ -90,15 +90,6 @@ Awarded for highest entrance GPA in the province. Transferred to a different deg
 
 ---
 
-## Soft Skills
-
-- **Efficiency and results-oriented:** Lead integrator on complex automation projects with high client satisfaction.
-- **Collaboration:** Effective in cross-functional teams; skilled at setting shared goals and fostering collaborative environments.
-- **Advisory skills:** Translates technical complexity into accessible language for functional and client-facing stakeholders.
-- **Training:** Delivered integration training (theory and exercises) to clients and colleagues.
-
----
-
 ## Languages
 
 - **Spanish:** Native
@@ -109,4 +100,6 @@ Awarded for highest entrance GPA in the province. Transferred to a different deg
 
 ## Certifications
 
-**Integration:** SAP Certified Associate - Integration Developer, July 2025.
+**Integration:**
+- SAP Certified Associate - Integration Developer. July 2025.
+- Solace Certified Event Driven Integration - SAP. April 2026.
