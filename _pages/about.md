@@ -8,12 +8,14 @@ redirect_from:
   - /aboutme/
   - /about.html
 ---
-Hello! My name is Manuel, and I am based in Granada, Spain. I work in integration, the discipline of building the middleware that allows different systems to communicate with each other. My CV is available [here](https://malmriv.github.io/cv/).
+Hello! My name is Manuel, and I am based in Granada, Spain. I work in integration, building the middleware that lets different systems talk to each other. My CV is available [here](https://malmriv.github.io/cv/).
 
-My background is in physics. I started out studying chemistry before switching degrees, having decided that physics was a better fit for me. Physics required a fair amount of programming, which suited my interests well; computational methods and simulation were among the areas I enjoyed most.
+My background is in physics. I started out in chemistry before switching, having decided physics was a better fit. Back in the pre-LLM days, programming was still something you could spend long hours wrestling with, and the intersection of physics and computing felt genuinely exciting: running simulations, cleaning up raw data from the lab, finding a decent fit, figuring out how to plot the thing so it actually said something. That was the part of physics I enjoyed most.
 
-Outside of work, I read a lot, mostly European literature and anything related to Slavic history/culture/politics. I also tend to watch a lot of movies; my taste tends towards the contemplative and slow-paced, though I will watch pretty much anything. I enjoy cooking, with a focus on vegan food and baking (when time allows). I also have a growing interest in coffee and espresso preparation.
+Outside of work, I read a lot, mostly around Slavic history, culture and politics. Movies are another constant; my taste leans towards the slow and contemplative, but honestly I'll watch anything. Cooking is mostly vegan in my kitchen, with some baking when time allows. Coffee has become a serious hobby — one that conveniently aligns with the other hobby of drinking large amounts of it.
 
-In the [Blog](https://malmriv.github.io/year-archive/) section you will find technical notes and writeups, mostly related to software and integration. 
+I'm an active member of the Wikimedia community, though not as much as I'd like. I contribute edits, photographs, corrections and translations whenever I can. My most-read contribution so far has been translating and expanding the Spanish article on the [Gombe Chimpanzee War](https://es.wikipedia.org/wiki/Guerra_de_los_chimpancés_de_Gombe).
+
+On my [blog](https://blog.almag.ro/year-archive/) I mostly write about software and integration, with the occasional detour into whatever else has caught my attention.
 
 For any inquiries, feel free to reach me [via email](mailto:malmriv@gmail.com) or on [LinkedIn](https://www.linkedin.com/in/malmriv/).
