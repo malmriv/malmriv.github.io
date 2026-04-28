@@ -56,7 +56,7 @@ Naur did not anticipate LLMs but he anticipated this exact problem. He just thou
 
 ## The legibility problem
 
-Here is the part I keep coming back to, and the part that I think most people writing about this are missing: it does not matter whether AI-augmented teams produce worse software. They certainly do, for the reasons above. What matters is whether the degradation is *visible to the people approving budgets*.
+Here is the part I keep coming back to, and the part that I think most people writing about this are not mentioning: it does not matter whether AI-augmented teams produce worse software. They certainly do, for the reasons above. What matters is whether the degradation is *visible to the people approving budgets*.
 
 For most enterprise software, quality is nearly invisible until something catastrophic happens. The system runs, and some numbers go up. A dashboard is green. Customers file tickets at roughly the same rate they always did, and most of those tickets get closed, and the ones that do not get closed get folded into a backlog that everyone agrees is "tech debt" and nobody is going to look at for the moment. None of this changes when the team that built the system is replaced by a smaller team plus an LLM. It cannot change, because the things that have actually degraded (judgment, taste, the ability to recognize that a proposed change is going to cause a problem in six months) do not show up on dashboards. They show up later, when the catastrophe arrives, and by that point the causal chain back to the staffing decision is too long for anyone to trace.
 
