@@ -12,7 +12,7 @@ Hello! My name is Manuel, and I am based in Granada, Spain. I work in integratio
 
 My background is in physics. I started out in chemistry before switching, having decided physics was a better fit. Back in the pre-LLM days, programming was still something you could spend long hours wrestling with, and the intersection of physics and computing felt genuinely exciting: running simulations, cleaning up raw data from the lab, finding a decent fit, figuring out how to plot the thing so it actually said something. That was the part of physics I enjoyed most.
 
-Outside of work, I read a lot, mostly around Slavic history, culture and politics. Movies are another constant; my taste leans towards the slow and contemplative, but honestly I'll watch anything. Cooking is mostly vegan in my kitchen, with some baking when time allows. Coffee has become a serious hobby — one that conveniently aligns with the other hobby of drinking large amounts of it.
+Outside of work, I read a lot, mostly around Slavic history, culture and politics. Movies are another constant; my taste leans towards the slow and contemplative, but honestly I'll watch anything. I love cooking (mostly vegan), and baking when time allows. Learning to make great coffee has also become a time-consuming hobby recently.
 
 I'm an active member of the Wikimedia community, though not as much as I'd like. I contribute edits, photographs, corrections and translations whenever I can. My most-read contribution so far has been translating and expanding the Spanish article on the [Gombe Chimpanzee War](https://es.wikipedia.org/wiki/Guerra_de_los_chimpancés_de_Gombe).
 
