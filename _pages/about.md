@@ -14,7 +14,7 @@ My background is in physics. I started out in chemistry before switching, having
 
 Outside of work, I read a lot, mostly around Slavic history, culture and politics. Movies are another constant; my taste leans towards the slow and contemplative, but honestly I'll watch anything. I love cooking (mostly vegan), and baking when time allows. Learning to make great coffee has also become a time-consuming hobby recently.
 
-I'm an active member of the Wikimedia community, though not as much as I'd like. I contribute edits, photographs, corrections and translations whenever I can. My most-read contribution so far has been translating and expanding the Spanish article on the [Gombe Chimpanzee War](https://es.wikipedia.org/wiki/Guerra_de_los_chimpancés_de_Gombe).
+I'm an active member of the Wikimedia community, though not as active as I'd like to be. I contribute edits, photographs, corrections, and translations whenever I can. My most-read contribution so far has been, for reasons unbeknownst to me, the Spanish article on the [Gombe Chimpanzee War](https://es.wikipedia.org/wiki/Guerra_de_los_chimpancés_de_Gombe).
 
 On my [blog](https://blog.almag.ro/year-archive/) I mostly write about software and integration, with the occasional detour into whatever else has caught my attention.
 
